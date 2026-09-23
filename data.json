@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "updatedAt": "2026-09-23T09:44:00+02:00",
+    "timezone": "Europe/Stockholm",
+    "person": "Alex",
+    "goal": "Marathon-ready by mid-Jan / early Feb 2027",
+    "phase": "Rebuild (24 Sep – 26 Oct 2026)"
+  },
+  "body": {
+    "weightKg": 85.4,
+    "heightCm": 179,
+    "bmi": 25.2,
+    "fatPercent": 21.6,
+    "fatMassKg": 18.4,
+    "muscleKg": 62.5,
+    "leanKg": 65.8,
+    "visceralFat": 3.7,
+    "boneKg": 3.3,
+    "waterKg": 45,
+    "bmrKcal": 1909,
+    "metabolicAge": 41,
+    "vascularAgeRange": "40–44",
+    "nerveHealthScore": 70,
+    "awakeHr": 49,
+    "asleepHr": 48,
+    "pwv": 6.7,
+    "stepsAvg": 6919,
+    "sleepAsleepHours": 6.5,
+    "sleepEfficiencyPct": 92,
+    "weekdayBedtime": "00:13",
+    "weekdayWake": "07:13",
+    "sourceNote": "Withings medical report (23 Jun–23 Sep 2026) + live share Sep 18",
+    "priorJulyWeightKg": 80.1
+  },
+  "fitness": {
+    "lastActivity": "Morning Trail Run 28 Jul 2026 · 4.72 km",
+    "year2026Runs": 49,
+    "year2026Km": 326.2,
+    "year2026Time": "37h 30m",
+    "elevM": 3519,
+    "bestEfforts": {
+      "5k": "25:48",
+      "10k": "57:33",
+      "half": "2:20:42"
+    },
+    "currentPaceAssumption": "~7:30 /km easy (rebuild; ~8 km ≈ 60 min)",
+    "shortDistancePace": "5K best 25:48 — current fitness: rebuilding after gap",
+    "longDistancePace": "Half best 2:20:42 as long-distance reference",
+    "gapNote": "~8 week gap since last activity"
+  },
+  "strength": {
+    "farmersCarry": {
+      "weightKg": null,
+      "notes": "Log when recorded"
+    },
+    "romanianDeadlift": {
+      "weightKg": null,
+      "notes": "Log when recorded"
+    },
+    "lastUpdated": null
+  },
+  "nutritionDefaults": {
+    "proteinFloorG": 130,
+    "proteinHardDayG": 140,
+    "style": "consistent easy meals",
+    "mealsLibrary": {
+      "breakfast_cereal": "Cheerios or muesli + lactose-free milk",
+      "breakfast_omelette": "5-egg omelette + tin of mackerel",
+      "lunch_or_dinner_protein_veg": "lean fish / chicken / pork + veg",
+      "pre_long_run_gt12km": "porridge + banana + drizzle of honey",
+      "weekly_treat": "steak + airfry fries (Fri or Sat once/week)"
+    }
+  },
+  "weekMeals": [
+    {
+      "date": "2026-09-23",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 2300,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Chicken + veg",
+        "dinner": "Lean fish + veg",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Rest / light day — keep protein steady"
+    },
+    {
+      "date": "2026-09-24",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 2500,
+      "proteinFloorG": 140,
+      "meals": {
+        "breakfast": "5-egg omelette + tin of mackerel",
+        "lunch": "Lean pork + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Cottage cheese or yogurt"
+      },
+      "notes": "Strength Full body A morning — higher protein day"
+    },
+    {
+      "date": "2026-09-25",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 2600,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios or muesli + lactose-free milk",
+        "lunch": "Lean fish + veg",
+        "dinner": "Steak + airfry fries (weekly treat)",
+        "snacks": "Fruit"
+      },
+      "notes": "Easy 4k AM · weekly treat dinner (Sat is football clash)"
+    },
+    {
+      "date": "2026-09-26",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Chicken + veg",
+        "dinner": "Lean fish + veg",
+        "snacks": "Yogurt"
+      },
+      "notes": "Football morning — lighter day, no AM training"
+    },
+    {
+      "date": "2026-09-27",
+      "dayName": "Sunday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios or muesli + lactose-free milk",
+        "lunch": "Lean pork + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Banana + yogurt"
+      },
+      "notes": "Long 5k morning — normal breakfast (porridge when long >12 km)"
+    },
+    {
+      "date": "2026-09-28",
+      "dayName": "Monday",
+      "caloriesTargetApprox": 2500,
+      "proteinFloorG": 140,
+      "meals": {
+        "breakfast": "5-egg omelette + tin of mackerel",
+        "lunch": "Lean fish + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Cottage cheese"
+      },
+      "notes": "Strength 30m — higher protein"
+    },
+    {
+      "date": "2026-09-29",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Chicken + veg",
+        "dinner": "Lean pork + veg",
+        "snacks": "Greek yogurt"
+      },
+      "notes": "Easy 5k"
+    },
+    {
+      "date": "2026-09-30",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 2300,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios or muesli + lactose-free milk",
+        "lunch": "Lean fish + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Fruit"
+      },
+      "notes": "Rest day"
+    },
+    {
+      "date": "2026-10-01",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 2500,
+      "proteinFloorG": 140,
+      "meals": {
+        "breakfast": "5-egg omelette + tin of mackerel",
+        "lunch": "Lean pork + veg",
+        "dinner": "Lean fish + veg",
+        "snacks": "Yogurt"
+      },
+      "notes": "Strength 30m — higher protein"
+    },
+    {
+      "date": "2026-10-02",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Chicken + veg",
+        "dinner": "Lean fish + veg",
+        "snacks": "Banana"
+      },
+      "notes": "Easy / recovery — treat optional if energy high"
+    },
+    {
+      "date": "2026-10-03",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios or muesli + lactose-free milk",
+        "lunch": "Lean pork + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Yogurt"
+      },
+      "notes": "Check football schedule"
+    },
+    {
+      "date": "2026-10-04",
+      "dayName": "Sunday",
+      "caloriesTargetApprox": 2500,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Lean fish + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Banana + yogurt"
+      },
+      "notes": "Long 6k morning — still under 12 km, normal breakfast OK"
+    },
+    {
+      "date": "2026-10-05",
+      "dayName": "Monday",
+      "caloriesTargetApprox": 2500,
+      "proteinFloorG": 140,
+      "meals": {
+        "breakfast": "5-egg omelette + tin of mackerel",
+        "lunch": "Chicken + veg",
+        "dinner": "Lean pork + veg",
+        "snacks": "Cottage cheese"
+      },
+      "notes": "Strength day pattern"
+    },
+    {
+      "date": "2026-10-06",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 2400,
+      "proteinFloorG": 130,
+      "meals": {
+        "breakfast": "Cheerios + lactose-free milk",
+        "lunch": "Lean fish + veg",
+        "dinner": "Chicken + veg",
+        "snacks": "Greek yogurt"
+      },
+      "notes": "Easy run day pattern"
+    }
+  ],
+  "training": [
+    {
+      "date": "2026-09-23",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "No session booked Wednesday"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Strength Full body A",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "~25–30 min · calendar ~07:40–08:55",
+      "location": null
+    },
+    {
+      "date": "2026-09-25",
+      "title": "Easy 4 km",
+      "type": "run",
+      "distanceKm": 4,
+      "durationMin": 30,
+      "notes": "Easy rebuild pace ~7:30/km",
+      "location": null
+    },
+    {
+      "date": "2026-09-26",
+      "title": "Football",
+      "type": "rest",
+      "notes": "Football clash morning — no AM training / ParkRun"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "Long 5 km",
+      "type": "run",
+      "distanceKm": 5,
+      "durationMin": 40,
+      "notes": "Long run (still short rebuild volume)",
+      "location": null
+    },
+    {
+      "date": "2026-09-28",
+      "title": "Strength 30m",
+      "type": "strength",
+      "durationMin": 30,
+      "notes": "Full body strength",
+      "location": null
+    },
+    {
+      "date": "2026-09-29",
+      "title": "Easy 5k",
+      "type": "run",
+      "distanceKm": 5,
+      "durationMin": 38,
+      "notes": "Easy rebuild pace",
+      "location": null
+    },
+    {
+      "date": "2026-09-30",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "Recovery Wednesday"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "Strength 30m",
+      "type": "strength",
+      "durationMin": 30,
+      "notes": "Full body strength",
+      "location": null
+    },
+    {
+      "date": "2026-10-04",
+      "title": "Long 6k",
+      "type": "run",
+      "distanceKm": 6,
+      "durationMin": 45,
+      "notes": "Long run progression",
+      "location": null
+    },
+    {
+      "date": "2026-10-31",
+      "title": "ParkRun",
+      "type": "parkrun",
+      "distanceKm": 5,
+      "notes": "Booked clear Saturday morning (football free)",
+      "location": null
+    },
+    {
+      "date": "2026-12-12",
+      "title": "ParkRun",
+      "type": "parkrun",
+      "distanceKm": 5,
+      "notes": "Booked clear Saturday morning",
+      "location": null
+    },
+    {
+      "date": "2027-01-09",
+      "title": "ParkRun",
+      "type": "parkrun",
+      "distanceKm": 5,
+      "notes": "Booked clear Saturday morning",
+      "location": null
+    }
+  ],
+  "dailyGuide": {
+    "nutritionTip": "Hit ~130g protein most days (140g on strength). Rotate the easy meal library — consistency beats perfection.",
+    "sleepTip": "Weekday bedtime averages ~00:13 — that is the main lever. Aim earlier (target ~23:00) for better rebuild recovery."
+  }
+}
