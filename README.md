@@ -14,6 +14,10 @@ Public single-page dashboard for **Alex McNab-Lundbäck** — body composition (
 | `data.json` | All live stats, meals, and training |
 | `README.md` | This note |
 
+## Energy logs
+
+Add end-of-day entries to `energy.dailyLogs` using this shape: `{ "date": "YYYY-MM-DD", "intakeKcal": number, "burnKcal": number, "deficitKcal": number, "mealsNote": "", "source": "garmin+self" }`. `deficitKcal` is `burnKcal - intakeKcal` (positive means a deficit); rolling averages are calculated in the dashboard from the latest seven logs.
+
 ## Local preview
 
 Open `index.html` via a simple static server (fetch needs HTTP):

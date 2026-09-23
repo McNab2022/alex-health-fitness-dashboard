@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-23T10:48:00+02:00",
+    "updatedAt": "2026-09-23T10:54:00+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -104,6 +104,20 @@
     "sourceNote": "Withings medical report (23 Jun–23 Sep 2026) + live share Sep 18",
     "priorJulyWeightKg": 80.1
   },
+  "energy": {
+    "method": "End-of-day: approx intake + Garmin total burn",
+    "deficitGoalKcal": 500,
+    "rollingDays": 7,
+    "averages": {
+      "intakeKcal": null,
+      "burnKcal": null,
+      "tdeeKcal": null,
+      "deficitKcal": null,
+      "sampleSize": 0,
+      "note": "Averages appear after first daily logs"
+    },
+    "dailyLogs": []
+  },
   "fitness": {
     "lastActivity": "Morning Trail Run 28 Jul 2026 · 4.72 km",
     "year2026Runs": 49,
@@ -140,6 +154,7 @@
     "intermittentFasting": true,
     "eatingWindow": "skip breakfast; lunch = first meal",
     "style": "intermittent fasting with consistent easy meals",
+    "calibrationNote": "Targets will calibrate from Garmin total-burn logs as daily data accumulates.",
     "mealsLibrary": {
       "firstMeal_cereal": "Cheerios or muesli + lactose-free milk",
       "firstMeal_omelette": "5-egg omelette + tin of mackerel",

@@ -423,6 +423,34 @@
     }
     .pace-row:last-child { border-bottom: 0; }
     .pace-row span:first-child { color: var(--muted); }
+    .energy-method {
+      margin: 0 0 .85rem;
+      color: var(--muted);
+      font-size: .82rem;
+    }
+    .energy-empty {
+      padding: 1rem;
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+      background: rgba(91,157,255,.06);
+      color: var(--text);
+      text-align: center;
+    }
+    .energy-empty strong { display: block; color: var(--accent); }
+    .energy-meta {
+      margin: .75rem 0 0;
+      color: var(--muted);
+      font-size: .76rem;
+    }
+    .energy-table { margin-top: .75rem; }
+    .energy-table td,
+    .energy-table th { text-align: right; }
+    .energy-table td:first-child,
+    .energy-table th:first-child { text-align: left; }
+    .energy-table td { font-variant-numeric: tabular-nums; }
+    .energy-good { color: var(--accent); }
+    .energy-warn { color: var(--warn); }
+    .energy-bad { color: #ff7272; }
     .visually-hidden {
       position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
       overflow: hidden; clip: rect(0,0,0,0); border: 0;
@@ -578,6 +606,88 @@
         );
       }
 
+      function energyDeficitClass(deficit, goal) {
+        if (typeof deficit !== "number" || !Number.isFinite(deficit)) return "";
+        if (deficit >= goal) return "energy-good";
+        if (deficit >= 200) return "energy-warn";
+        return "energy-bad";
+      }
+
+      function formatDeficit(deficit) {
+        if (deficit == null || !Number.isFinite(Number(deficit))) return "—";
+        const value = Number(deficit);
+        return value < 0 ? "Surplus " + fmtNum(Math.abs(value), 0) + " kcal" : fmtNum(value, 0) + " kcal";
+      }
+
+      function renderEnergy(energy) {
+        const cfg = energy || {};
+        const logs = Array.isArray(cfg.dailyLogs)
+          ? cfg.dailyLogs.slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); })
+          : [];
+        const rollingDays = Number(cfg.rollingDays) > 0 ? Number(cfg.rollingDays) : 7;
+        const recent = logs.slice(0, rollingDays);
+        const goal = Number(cfg.deficitGoalKcal) || 500;
+        const averages = cfg.averages || {};
+
+        function average(key) {
+          const values = recent.map(function (log) {
+            if (key === "deficitKcal" && log.deficitKcal == null && log.burnKcal != null && log.intakeKcal != null) {
+              return Number(log.burnKcal) - Number(log.intakeKcal);
+            }
+            return Number(log[key]);
+          }).filter(function (value) { return Number.isFinite(value); });
+          if (values.length) return values.reduce(function (sum, value) { return sum + value; }, 0) / values.length;
+          return typeof averages[key] === "number" ? averages[key] : null;
+        }
+
+        const intake = average("intakeKcal");
+        const burn = average("burnKcal");
+        const tdee = burn != null ? burn : average("tdeeKcal");
+        const deficit = average("deficitKcal");
+        const deficitClass = energyDeficitClass(deficit, goal);
+        const metrics = [
+          ["Avg intake", intake, "kcal", ""],
+          ["Avg burn", burn, "kcal", "Garmin total"],
+          ["TDEE proxy", tdee, "kcal", "avg total burn"],
+          ["Avg deficit", deficit, "", "Goal ≥ " + fmtNum(goal, 0) + " kcal"]
+        ];
+
+        const metricCards = metrics.map(function (metric) {
+          const isDeficit = metric[0] === "Avg deficit";
+          return '<div class="card' + (isDeficit && deficitClass ? ' ' + deficitClass : '') + '">' +
+            '<div class="stat-label">' + esc(metric[0]) + '</div>' +
+            '<div class="stat-value">' + (isDeficit ? esc(formatDeficit(metric[1])) : esc(fmtNum(metric[1], 0) + ' ' + metric[2])) + '</div>' +
+            '<div class="stat-sub">' + esc(metric[3]) + '</div>' +
+          '</div>';
+        }).join('');
+
+        const tableRows = recent.slice(0, 14).map(function (log) {
+          const logDeficit = log.deficitKcal != null
+            ? Number(log.deficitKcal)
+            : (Number(log.burnKcal) - Number(log.intakeKcal));
+          return '<tr>' +
+            '<td class="day">' + esc(shortDate(log.date)) + '</td>' +
+            '<td>' + esc(fmtNum(log.intakeKcal, 0)) + '</td>' +
+            '<td>' + esc(fmtNum(log.burnKcal, 0)) + '</td>' +
+            '<td class="' + esc(energyDeficitClass(logDeficit, goal)) + '">' + esc(formatDeficit(logDeficit)) + '</td>' +
+          '</tr>';
+        }).join('');
+
+        return '<section class="energy-section">' +
+          '<div class="section-head"><h2>Energy &amp; deficit</h2><span class="hint">Garmin + self</span></div>' +
+          '<div class="card">' +
+            '<p class="energy-method">' + esc(cfg.method || "End-of-day intake + Garmin total burn") + '</p>' +
+            (recent.length
+              ? '<div class="grid cols-2 cols-4-lg">' + metricCards + '</div>' +
+                '<p class="energy-meta">Rolling ' + esc(rollingDays) + '-day window · ' + esc(recent.length) + ' logged day' + (recent.length === 1 ? '' : 's') + '</p>'
+              : '<div class="energy-empty" role="status"><strong>Ready for your first log</strong>Log tonight: eaten + Garmin burn → averages appear here</div>') +
+          '</div>' +
+          (recent.length
+            ? '<div class="card energy-table" style="overflow-x:auto"><table class="week-table"><thead><tr><th>Date</th><th>In</th><th>Burn</th><th>Deficit</th></tr></thead><tbody>' + tableRows + '</tbody></table></div>'
+            : '') +
+        '</section>';
+      }
+
       function formatDateRange(start, end) {
         if (!start || !end) return start || end || 'ETA not set';
         return shortDate(start) + ' – ' + shortDate(end);
@@ -662,6 +772,7 @@
         const strength = data.strength || {};
         const meta = data.meta || {};
         const goals = data.goals || {};
+        const energy = data.energy || {};
         const guide = data.dailyGuide || {};
         const meals = data.weekMeals || [];
         const training = data.training || [];
@@ -707,6 +818,8 @@
           "</header>" +
 
           renderGoals(goals) +
+
+          renderEnergy(energy) +
 
           '<section>' +
             '<div class="section-head"><h2>Body composition</h2><span class="hint">Withings</span></div>' +
