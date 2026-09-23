@@ -1,10 +1,82 @@
 {
   "meta": {
-    "updatedAt": "2026-09-23T09:52:12+02:00",
+    "updatedAt": "2026-09-23T10:48:00+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)"
+  },
+  "goals": {
+    "fatPercentTarget": {
+      "min": 15,
+      "max": 16
+    },
+    "weightKgTarget": {
+      "min": 70,
+      "max": 75
+    },
+    "preferredFirstMilestone": {
+      "label": "15–16% fat, preserve lean",
+      "weightKgApprox": 77,
+      "fatPercent": 16,
+      "rationale": "Hold lean ~66 kg → ~76–78 kg at 15–16% fat"
+    },
+    "assumptions": {
+      "dailyDeficitKcal": 500,
+      "lossRateKgPerWeek": {
+        "min": 0.4,
+        "max": 0.5
+      },
+      "note": "Rates assume adherence + progressive training; not medical advice. Faster loss risks muscle and marathon build."
+    },
+    "scenarios": [
+      {
+        "id": "lean-preserve",
+        "title": "First milestone — ~16% fat",
+        "targetWeightKg": 77,
+        "targetFatPercent": 16,
+        "kgToLoseApprox": 6.5,
+        "weeksMin": 14,
+        "weeksMax": 18,
+        "etaStart": "2026-12-28",
+        "etaEnd": "2027-01-25",
+        "primary": true
+      },
+      {
+        "id": "seventy-five",
+        "title": "75 kg @ 15–16%",
+        "targetWeightKg": 75,
+        "targetFatPercent": 15.5,
+        "kgToLoseApprox": 10.4,
+        "weeksMin": 20,
+        "weeksMax": 25,
+        "etaStart": "2027-02-10",
+        "etaEnd": "2027-03-17",
+        "primary": false
+      },
+      {
+        "id": "seventy",
+        "title": "70 kg (later phase)",
+        "targetWeightKg": 70,
+        "targetFatPercent": 15,
+        "kgToLoseApprox": 15.4,
+        "weeksMin": 30,
+        "weeksMax": 38,
+        "etaStart": "2027-04-20",
+        "etaEnd": "2027-06-15",
+        "primary": false,
+        "note": "Defer past marathon-ready check; don’t force during winter build"
+      }
+    ],
+    "progress": {
+      "startWeightKg": 85.4,
+      "startFatPercent": 21.6,
+      "startDate": "2026-09-23",
+      "currentWeightKg": 85.4,
+      "currentFatPercent": 21.6,
+      "primaryTargetWeightKg": 77,
+      "primaryTargetFatPercent": 16
+    }
   },
   "body": {
     "weightKg": 85.4,

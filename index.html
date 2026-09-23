@@ -170,6 +170,131 @@
       font-size: .75rem;
       color: var(--muted);
     }
+    .goal-overview {
+      margin-bottom: .75rem;
+    }
+    .goal-target-note {
+      margin: 0 0 .8rem;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    .goal-target-note strong { color: var(--text); }
+    .goal-progress-grid {
+      gap: .75rem;
+    }
+    .goal-metric {
+      padding: .85rem .9rem;
+    }
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: .75rem;
+      font-size: .82rem;
+      color: var(--muted);
+    }
+    .progress-label strong {
+      color: var(--text);
+      font-size: .92rem;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .progress-track {
+      height: .5rem;
+      margin-top: .7rem;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #0b111a;
+      border: 1px solid var(--border);
+    }
+    .progress-fill {
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), #8af0bc);
+      transition: width .3s ease;
+    }
+    .progress-caption {
+      margin-top: .45rem;
+      color: var(--muted);
+      font-size: .76rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .scenario-grid {
+      display: grid;
+      gap: .75rem;
+    }
+    .scenario-card {
+      padding: .9rem 1rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+    }
+    .scenario-card.primary {
+      border-color: rgba(61,214,140,.55);
+      background: linear-gradient(180deg, rgba(61,214,140,.12), var(--bg-card));
+      box-shadow: 0 2px 14px rgba(61,214,140,.08);
+    }
+    .scenario-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: .75rem;
+    }
+    .scenario-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .scenario-badge {
+      flex: 0 0 auto;
+      padding: .2rem .5rem;
+      border-radius: 999px;
+      background: var(--accent-dim);
+      color: var(--accent);
+      font-size: .68rem;
+      font-weight: 750;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .scenario-eta {
+      margin: .35rem 0 .75rem;
+      color: var(--muted);
+      font-size: .8rem;
+    }
+    .scenario-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: .6rem;
+    }
+    .scenario-stats span {
+      display: block;
+      color: var(--muted);
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .scenario-stats strong {
+      display: block;
+      margin-top: .15rem;
+      font-size: .95rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .scenario-note {
+      margin: .7rem 0 0;
+      padding-top: .6rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: .8rem;
+    }
+    .goal-assumption,
+    .goal-disclaimer {
+      color: var(--muted);
+      font-size: .8rem;
+    }
+    .goal-assumption { margin: .75rem .15rem .35rem; }
+    .goal-disclaimer { margin: .35rem .15rem 0; }
+    .goal-assumption strong,
+    .goal-disclaimer strong { color: var(--text); }
 
     .badge {
       display: inline-block;
@@ -387,6 +512,77 @@
         return (arr || []).find(function (x) { return x.date === date; }) || null;
       }
 
+      function progressPercent(start, current, target) {
+        if (![start, current, target].every(function (n) { return typeof n === "number" && Number.isFinite(n); })) return 0;
+        const total = start - target;
+        if (total <= 0) return 0;
+        return Math.max(0, Math.min(100, ((start - current) / total) * 100));
+      }
+
+      function goalMetric(label, current, target, start, suffix) {
+        const pct = progressPercent(start, current, target);
+        return (
+          '<div class="goal-metric card">' +
+            '<div class="progress-label"><span>' + esc(label) + '</span><strong>' +
+              esc(fmtNum(current, 1)) + esc(suffix) + ' → ' + esc(fmtNum(target, 1)) + esc(suffix) +
+            '</strong></div>' +
+            '<div class="progress-track" role="progressbar" aria-label="' + esc(label) + ' progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + esc(fmtNum(pct, 0)) + '">' +
+              '<div class="progress-fill" style="width:' + pct.toFixed(1) + '%"></div>' +
+            '</div>' +
+            '<div class="progress-caption">' + esc(fmtNum(pct, 0)) + '% toward primary milestone</div>' +
+          '</div>'
+        );
+      }
+
+      function renderGoals(goals) {
+        const progress = goals.progress || {};
+        const assumptions = goals.assumptions || {};
+        const rate = assumptions.lossRateKgPerWeek || {};
+        const milestone = goals.preferredFirstMilestone || {};
+        const scenarios = goals.scenarios || [];
+        if (!Object.keys(progress).length) return '';
+
+        return (
+          '<section class="goals-section">' +
+            '<div class="section-head"><h2>Goals &amp; timeline</h2><span class="hint">Primary milestone</span></div>' +
+            '<div class="card goal-overview">' +
+              '<p class="goal-target-note"><strong>' + esc(milestone.label || 'Primary milestone') + '</strong>' +
+                (milestone.rationale ? ' · ' + esc(milestone.rationale) : '') + '</p>' +
+              '<div class="grid cols-2 goal-progress-grid">' +
+                goalMetric('Weight', progress.currentWeightKg, progress.primaryTargetWeightKg, progress.startWeightKg, ' kg') +
+                goalMetric('Body fat', progress.currentFatPercent, progress.primaryTargetFatPercent, progress.startFatPercent, '%') +
+              '</div>' +
+            '</div>' +
+            '<div class="scenario-grid">' +
+              scenarios.map(function (scenario) {
+                return (
+                  '<article class="scenario-card' + (scenario.primary ? ' primary' : '') + '">' +
+                    '<div class="scenario-top"><h3 class="scenario-title">' + esc(scenario.title) + '</h3>' +
+                      (scenario.primary ? '<span class="scenario-badge">Primary</span>' : '') +
+                    '</div>' +
+                    '<p class="scenario-eta">' + esc(formatDateRange(scenario.etaStart, scenario.etaEnd)) +
+                      ' · ' + esc(scenario.weeksMin) + '–' + esc(scenario.weeksMax) + ' weeks</p>' +
+                    '<div class="scenario-stats">' +
+                      '<div><span>Target</span><strong>' + esc(fmtNum(scenario.targetWeightKg, 1)) + ' kg · ' + esc(fmtNum(scenario.targetFatPercent, 1)) + '%</strong></div>' +
+                      '<div><span>Lose approx.</span><strong>' + esc(fmtNum(scenario.kgToLoseApprox, 1)) + ' kg</strong></div>' +
+                    '</div>' +
+                    (scenario.note ? '<p class="scenario-note">' + esc(scenario.note) + '</p>' : '') +
+                  '</article>'
+                );
+              }).join('') +
+            '</div>' +
+            '<p class="goal-assumption"><strong>Assumptions:</strong> ' + esc(assumptions.dailyDeficitKcal) + ' kcal/day deficit · ' +
+              esc(rate.min) + '–' + esc(rate.max) + ' kg/week</p>' +
+            '<p class="goal-disclaimer"><strong>Estimate, not a guarantee:</strong> depends on adherence, sleep, training, and measurement noise.</p>' +
+          '</section>'
+        );
+      }
+
+      function formatDateRange(start, end) {
+        if (!start || !end) return start || end || 'ETA not set';
+        return shortDate(start) + ' – ' + shortDate(end);
+      }
+
       function typeBadge(type) {
         const t = (type || "rest").toLowerCase();
         return '<span class="badge ' + esc(t) + '">' + esc(t) + "</span>";
@@ -465,6 +661,7 @@
         const fitness = data.fitness || {};
         const strength = data.strength || {};
         const meta = data.meta || {};
+        const goals = data.goals || {};
         const guide = data.dailyGuide || {};
         const meals = data.weekMeals || [];
         const training = data.training || [];
@@ -508,6 +705,8 @@
             "</div>" +
             '<p class="goal"><strong>Goal:</strong> ' + esc(meta.goal || "") + "</p>" +
           "</header>" +
+
+          renderGoals(goals) +
 
           '<section>' +
             '<div class="section-head"><h2>Body composition</h2><span class="hint">Withings</span></div>' +
