@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-23T10:55+02:00",
+    "updatedAt": "2026-09-24T21:05+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -109,14 +109,25 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": null,
-      "burnKcal": null,
-      "tdeeKcal": null,
-      "deficitKcal": null,
-      "sampleSize": 0,
-      "note": "Averages appear after first daily logs (Sarah estimates calories from meal descriptions)"
+      "intakeKcal": 980,
+      "burnKcal": 2064,
+      "tdeeKcal": 2064,
+      "deficitKcal": 1084,
+      "sampleSize": 1,
+      "note": "Rolling 1-day average from logged days"
     },
-    "dailyLogs": []
+    "dailyLogs": [
+      {
+        "date": "2026-09-24",
+        "intakeKcal": 980,
+        "burnKcal": 2064,
+        "deficitKcal": 1084,
+        "steps": 4779,
+        "mealsNote": "Brunch: tuna mayo wrap (~500). Evening: bacon sandwich 4 rashers (~480). No exercise; short sleep after late night out. Protein ~60g.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Wrap same as prior log. Bacon sandwich: 4 rashers ~260 + 2 slices bread ~170 + light butter ~50."
+      }
+    ]
   },
   "fitness": {
     "lastActivity": "Morning Trail Run 28 Jul 2026 · 4.72 km",
@@ -374,7 +385,7 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "~25–30 min · calendar ~07:40–08:55",
+      "notes": "~25–30 min · calendar ~07:40–08:55 · Missed (slept until 12:30 after late night); no makeup double.",
       "location": null
     },
     {
