@@ -4,7 +4,8 @@
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
-    "phase": "Rebuild (24 Sep – 26 Oct 2026)"
+    "phase": "Rebuild (24 Sep – 26 Oct 2026)",
+    "lastUpdated": "2026-09-26"
   },
   "goals": {
     "fatPercentTarget": {
@@ -109,12 +110,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 980,
-      "burnKcal": 2064,
-      "tdeeKcal": 2064,
-      "deficitKcal": 1084,
-      "sampleSize": 1,
-      "note": "Rolling 1-day average from logged days"
+      "intakeKcal": 1062,
+      "burnKcal": 2032,
+      "tdeeKcal": 2032,
+      "deficitKcal": 970,
+      "sampleSize": 2,
+      "note": "Rolling 2-day average from logged days"
     },
     "dailyLogs": [
       {
@@ -126,6 +127,16 @@
         "mealsNote": "Brunch: tuna mayo wrap (~500). Evening: bacon sandwich 4 rashers (~480). No exercise; short sleep after late night out. Protein ~60g.",
         "source": "garmin+sarah-estimate",
         "assumptions": "Wrap same as prior log. Bacon sandwich: 4 rashers ~260 + 2 slices bread ~170 + light butter ~50."
+      },
+      {
+        "date": "2026-09-25",
+        "intakeKcal": 1145,
+        "burnKcal": 2000,
+        "deficitKcal": 855,
+        "steps": 5386,
+        "mealsNote": "Lunch: Coop Max Crispy Chicken Burger in Max bun with cheese + 1 tbsp mayo (~625). Dinner: 5-egg omelette + can of tuna (~520). Rest day. Protein ~87g.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn: Alex reports just over 2000 end-of-day (Garmin 1907 at 21:00). Sleep ~22:00-07:59 with brief wake at 04:56 (Garmin only logged 3h)."
       }
     ]
   },
