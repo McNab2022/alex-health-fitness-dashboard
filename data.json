@@ -5,7 +5,7 @@
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)",
-    "lastUpdated": "2026-09-26"
+    "lastUpdated": "2026-09-27"
   },
   "goals": {
     "fatPercentTarget": {
@@ -110,12 +110,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1062,
-      "burnKcal": 2032,
-      "tdeeKcal": 2032,
-      "deficitKcal": 970,
-      "sampleSize": 2,
-      "note": "Rolling 2-day average from logged days"
+      "intakeKcal": 1175,
+      "burnKcal": 1988,
+      "tdeeKcal": 1988,
+      "deficitKcal": 813,
+      "sampleSize": 3,
+      "note": "Rolling 3-day average from logged days"
     },
     "dailyLogs": [
       {
@@ -137,6 +137,16 @@
         "mealsNote": "Lunch: Coop Max Crispy Chicken Burger in Max bun with cheese + 1 tbsp mayo (~625). Dinner: 5-egg omelette + can of tuna (~520). Rest day. Protein ~87g.",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn: Alex reports just over 2000 end-of-day (Garmin 1907 at 21:00). Sleep ~22:00-07:59 with brief wake at 04:56 (Garmin only logged 3h)."
+      },
+      {
+        "date": "2026-09-26",
+        "intakeKcal": 1400,
+        "burnKcal": 1900,
+        "deficitKcal": 500,
+        "steps": 3052,
+        "mealsNote": "Subway ham & cheese footlong (~720). Dinner: 300g lamb steak + broccoli (~680). Football morning, no training. Protein ~105g.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn estimated ~1900 end-of-day from Garmin 1648 at ~19:00. Sleep 7h20m, score 84."
       }
     ]
   },
