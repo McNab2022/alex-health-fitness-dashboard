@@ -110,12 +110,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1175,
-      "burnKcal": 1988,
-      "tdeeKcal": 1988,
-      "deficitKcal": 813,
-      "sampleSize": 3,
-      "note": "Rolling 3-day average from logged days"
+      "intakeKcal": 1171,
+      "burnKcal": 2046,
+      "tdeeKcal": 2046,
+      "deficitKcal": 874,
+      "sampleSize": 4,
+      "note": "Rolling 4-day average from logged days"
     },
     "dailyLogs": [
       {
@@ -147,6 +147,16 @@
         "mealsNote": "Subway ham & cheese footlong (~720). Dinner: 300g lamb steak + broccoli (~680). Football morning, no training. Protein ~105g.",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn estimated ~1900 end-of-day from Garmin 1648 at ~19:00. Sleep 7h20m, score 84."
+      },
+      {
+        "date": "2026-09-27",
+        "intakeKcal": 1160,
+        "burnKcal": 2219,
+        "deficitKcal": 1059,
+        "steps": 13818,
+        "mealsNote": "Lunch: ~100g lamb fillet (~220). Dinner: wholegrain bun + 12% burger + cheese + 1 tbsp bearnaise (~600); second burger no bun with egg (~340). Protein ~90g.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burgers ~125g raw each. Burn Garmin ~21:00. Run 4.15 km 28:30 (6:52/km)."
       }
     ]
   },
@@ -164,7 +174,16 @@
     "currentPaceAssumption": "~7:30 /km easy (rebuild; ~8 km ≈ 60 min)",
     "shortDistancePace": "5K best 25:48 — current fitness: rebuilding after gap",
     "longDistancePace": "Half best 2:20:42 as long-distance reference",
-    "gapNote": "~8 week gap since last activity"
+    "gapNote": "~8 week gap since last activity",
+    "recentRuns": [
+      {
+        "date": "2026-09-27",
+        "distanceKm": 4.15,
+        "duration": "28:30",
+        "pace": "6:52/km",
+        "source": "Garmin"
+      }
+    ]
   },
   "strength": {
     "farmersCarry": {
@@ -474,7 +493,13 @@
       "durationMin": 40,
       "startLocal": "07:40",
       "notes": "Long run · easy rebuild (~40 min) · calendar 07:40–09:10",
-      "location": null
+      "location": null,
+      "completed": {
+        "distanceKm": 4.15,
+        "duration": "28:30",
+        "pace": "6:52/km",
+        "source": "Garmin"
+      }
     },
     {
       "date": "2026-09-28",
