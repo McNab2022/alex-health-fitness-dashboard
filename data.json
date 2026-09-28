@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-09-27T18:50+02:00",
+    "updatedAt": "2026-09-28T08:25+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)",
-    "lastUpdated": "2026-09-27"
+    "lastUpdated": "2026-09-28"
   },
   "goals": {
     "fatPercentTarget": {
@@ -316,7 +316,7 @@
     {
       "date": "2026-10-03",
       "dayName": "Saturday",
-      "caloriesTargetApprox": 1800,
+      "caloriesTargetApprox": 1950,
       "proteinFloorG": 130,
       "meals": {
         "breakfast": "Skipped (IF)",
@@ -324,7 +324,7 @@
         "dinner": "Lean pork + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "Optional easy ParkRun (Haga 09:30) — football moved, run day ~1950 kcal; ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
@@ -543,9 +543,12 @@
     },
     {
       "date": "2026-10-03",
-      "title": "Football",
-      "type": "rest",
-      "notes": "Football likely morning — no AM training / ParkRun"
+      "title": "ParkRun Haga (optional, easy)",
+      "type": "run",
+      "distanceKm": 5,
+      "durationMin": 35,
+      "startLocal": "09:30",
+      "notes": "Football moved; AK Saturday. Leave ~08:30. Optional — if run, Sunday long becomes easy 4–5 km."
     },
     {
       "date": "2026-10-04",
@@ -554,7 +557,7 @@
       "distanceKm": 6,
       "durationMin": 45,
       "startLocal": "07:40",
-      "notes": "Long run progression · calendar 07:40–09:15",
+      "notes": "Long run progression · calendar 07:40–09:15 Ollie match 11:00–13:45 — run must finish by ~10:45.",
       "location": null
     },
     {
@@ -628,7 +631,8 @@
       "type": "parkrun",
       "distanceKm": 5,
       "notes": "Booked clear Saturday morning (football free)",
-      "location": null
+      "location": null,
+      "startLocal": "09:30"
     },
     {
       "date": "2026-12-12",
@@ -636,7 +640,8 @@
       "type": "parkrun",
       "distanceKm": 5,
       "notes": "Booked clear Saturday morning",
-      "location": null
+      "location": null,
+      "startLocal": "09:30"
     },
     {
       "date": "2027-01-09",
@@ -644,7 +649,8 @@
       "type": "parkrun",
       "distanceKm": 5,
       "notes": "Booked clear Saturday morning",
-      "location": null
+      "location": null,
+      "startLocal": "09:30"
     }
   ],
   "dailyGuide": {
