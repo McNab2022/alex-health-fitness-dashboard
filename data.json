@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-28T08:25+02:00",
+    "updatedAt": "2026-09-29T09:05+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -110,12 +110,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1171,
-      "burnKcal": 2046,
-      "tdeeKcal": 2046,
-      "deficitKcal": 874,
-      "sampleSize": 4,
-      "note": "Rolling 4-day average from logged days"
+      "intakeKcal": 1157,
+      "burnKcal": 2119,
+      "tdeeKcal": 2119,
+      "deficitKcal": 962,
+      "sampleSize": 5,
+      "note": "Rolling 5-day average from logged days"
     },
     "dailyLogs": [
       {
@@ -157,6 +157,16 @@
         "mealsNote": "Lunch: ~100g lamb fillet (~220). Dinner: wholegrain bun + 12% burger + cheese + 1 tbsp bearnaise (~600); second burger no bun with egg (~340). Protein ~90g.",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burgers ~125g raw each. Burn Garmin ~21:00. Run 4.15 km 28:30 (6:52/km)."
+      },
+      {
+        "date": "2026-09-28",
+        "intakeKcal": 1100,
+        "burnKcal": 2413,
+        "deficitKcal": 1313,
+        "steps": 5225,
+        "mealsNote": "IF, no breakfast. Lunch: meatballs (~150g) in wholewheat bun (~550). Dinner: salmon fillet (~150g) + ~250g boiled potatoes + asparagus (~550). Protein ~70g (below 130g floor).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2413 (576 active + 1837 resting). Sleep not recorded (watch likely not worn overnight). Planned strength swapped for Padel 18:06, 1:28:56 elapsed (38:56 moving), 537 kcal, avg HR 115 / max 149 — pick strength up Wed 30 Sep or keep Thu 1 Oct."
       }
     ]
   },
@@ -507,8 +517,21 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00",
-      "location": null
+      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00 · Missed — swapped for Padel (Stockholm Padel, 18:06, 1:28:56). Pick strength up Wed 30 Sep (rest day) or keep Thu 1 Oct Full body B; no duplicate sessions.",
+      "location": null,
+      "completed": {
+        "activity": "Padel",
+        "location": "Stockholm Padel",
+        "startLocal": "18:06",
+        "duration": "1:28:56",
+        "movingTime": "38:56",
+        "kcal": 537,
+        "avgHr": 115,
+        "maxHr": 149,
+        "garminActivityId": "24532002603",
+        "source": "Garmin",
+        "swapFor": "Strength Full body A (not done)"
+      }
     },
     {
       "date": "2026-09-29",
