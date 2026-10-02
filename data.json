@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-29T09:05+02:00",
+    "updatedAt": "2026-10-02T19:27+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -330,17 +330,17 @@
       "proteinFloorG": 130,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Lean pork + veg",
+        "lunch": "Porridge + banana + honey (pre-race, ~10:30)",
+        "dinner": "Chicken + veg (protein dinner)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Optional easy ParkRun (Haga 09:30) — football moved, run day ~1950 kcal; ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "Förbifartspremiären 13:30 (Akalla) — ~7 km easy (4 km exit option), replaces long run; porridge pre-race by exception; ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
       "date": "2026-10-04",
       "dayName": "Sunday",
-      "caloriesTargetApprox": 2050,
+      "caloriesTargetApprox": 1800,
       "proteinFloorG": 130,
       "meals": {
         "breakfast": "Skipped (IF)",
@@ -348,7 +348,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Long 6 km, still under 12 km so no porridge; ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "Rest (long run done Sat at Förbifartspremiären) — ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
@@ -566,22 +566,19 @@
     },
     {
       "date": "2026-10-03",
-      "title": "ParkRun Haga (optional, easy)",
+      "title": "Förbifartspremiären ~7 km easy (4 km exit option)",
       "type": "run",
-      "distanceKm": 5,
-      "durationMin": 35,
-      "startLocal": "09:30",
-      "notes": "Football moved; AK Saturday. Leave ~08:30. Optional — if run, Sunday long becomes easy 4–5 km."
+      "distanceKm": 7,
+      "durationMin": 53,
+      "startLocal": "13:30",
+      "notes": "Untimed motionsklass through the new E4 Förbifart Stockholm tunnel · start/finish trafikplats Akalla (Vandagatan) · easy ~7:30/km, take the 4 km exit if the left leg grumbles · porridge + banana + honey ~10:30 · compression stockings · replaces the long run · calendar 12:15–15:30 (tunnelbana + race-number pickup)",
+      "location": "Trafikplats Akalla, Vandagatan, Stockholm"
     },
     {
       "date": "2026-10-04",
-      "title": "Long 6 km",
-      "type": "run",
-      "distanceKm": 6,
-      "durationMin": 45,
-      "startLocal": "07:40",
-      "notes": "Long run progression · calendar 07:40–09:15 Ollie match 11:00–13:45 — run must finish by ~10:45.",
-      "location": null
+      "title": "Rest",
+      "type": "rest",
+      "notes": "Rest day (long run done Sat at Förbifartspremiären) · Ollie match 11:00–13:45"
     },
     {
       "date": "2026-10-05",
