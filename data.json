@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-10-02T19:27+02:00",
+    "updatedAt": "2026-10-02T19:29+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -330,7 +330,7 @@
       "proteinFloorG": 130,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Porridge + banana + honey (pre-race, ~10:30)",
+        "lunch": "Porridge + banana + honey (pre-race, ~10:00)",
         "dinner": "Chicken + veg (protein dinner)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
@@ -571,8 +571,8 @@
       "distanceKm": 7,
       "durationMin": 53,
       "startLocal": "13:30",
-      "notes": "Untimed motionsklass through the new E4 Förbifart Stockholm tunnel · start/finish trafikplats Akalla (Vandagatan) · easy ~7:30/km, take the 4 km exit if the left leg grumbles · porridge + banana + honey ~10:30 · compression stockings · replaces the long run · calendar 12:15–15:30 (tunnelbana + race-number pickup)",
-      "location": "Trafikplats Akalla, Vandagatan, Stockholm"
+      "notes": "Untimed motionsklass through the new E4 Förbifart Stockholm tunnel · start/finish trafikplats Akalla · on site by 12:30 · easy ~7:30/km, take the 4 km exit if the left leg grumbles · porridge + banana + honey ~10:00 · compression stockings · replaces the long run · calendar 11:15–15:45: leave Huddinge ~11:15, park at Kistamässan (limited; fallback metro Kista→Akalla, Finlandsgatan exit), event shuttle Kistagången→Sveaborgsgatan; avoid Vandagatan (closed) and Hanstavägen (delays)",
+      "location": "Kistamässan, Arne Beurlings Torg 5, Kista"
     },
     {
       "date": "2026-10-04",
