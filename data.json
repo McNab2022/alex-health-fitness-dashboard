@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-10-03T15:08+02:00",
+    "updatedAt": "2026-10-03T15:10+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -175,7 +175,7 @@
     "year2026Runs": 50,
     "year2026Km": 333.3,
     "year2026Time": "38h 18m",
-    "elevM": 3519,
+    "elevM": 3605,
     "bestEfforts": {
       "5k": "25:48",
       "10k": "57:33",
@@ -590,8 +590,30 @@
         "pace": "6:44/km",
         "avgHr": 154,
         "kcal": 549,
-        "notes": "Felt strong but chose the 7 km exit rather than the 12 km. Elevation gain was more than expected; average HR 154 bpm was above easy effort.",
-        "source": "Garmin"
+        "notes": "Felt strong but chose the 7 km exit rather than the 12 km. Elevation gain was more than expected; average HR 154 bpm was above easy effort. High HR partly heat (25–30°C tunnel); cadence focus: work up to 165–170 spm gradually.",
+        "source": "Garmin",
+        "maxHr": 172,
+        "gradeAdjustedPace": "6:40/km",
+        "runTime": "46:28",
+        "walkTime": "1:39",
+        "ascentM": 86,
+        "descentM": 72,
+        "elevationMinM": -11,
+        "elevationMaxM": 41,
+        "aerobicTrainingEffect": 3.4,
+        "primaryBenefit": "Tempo",
+        "exerciseLoad": 92,
+        "staminaStartPct": 100,
+        "staminaEndPct": 76,
+        "avgPowerW": 267,
+        "avgCadenceSpm": 155,
+        "strideLengthM": 0.98,
+        "groundContactTimeMs": 271,
+        "activeKcal": 480,
+        "restingKcal": 69,
+        "sweatLossMl": 790,
+        "avgTemperatureC": 25,
+        "maxTemperatureC": 30
       }
     },
     {
