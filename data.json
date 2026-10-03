@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-10-02T19:29+02:00",
+    "updatedAt": "2026-10-03T15:08+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)",
-    "lastUpdated": "2026-09-28"
+    "lastUpdated": "2026-10-03"
   },
   "goals": {
     "fatPercentTarget": {
@@ -171,10 +171,10 @@
     ]
   },
   "fitness": {
-    "lastActivity": "Morning Trail Run 28 Jul 2026 · 4.72 km",
-    "year2026Runs": 49,
-    "year2026Km": 326.2,
-    "year2026Time": "37h 30m",
+    "lastActivity": "Förbifartspremiären 3 Oct 2026 · 7.14 km",
+    "year2026Runs": 50,
+    "year2026Km": 333.3,
+    "year2026Time": "38h 18m",
     "elevM": 3519,
     "bestEfforts": {
       "5k": "25:48",
@@ -191,6 +191,13 @@
         "distanceKm": 4.15,
         "duration": "28:30",
         "pace": "6:52/km",
+        "source": "Garmin"
+      },
+      {
+        "date": "2026-10-03",
+        "distanceKm": 7.14,
+        "duration": "48:07",
+        "pace": "6:44/km",
         "source": "Garmin"
       }
     ]
@@ -572,7 +579,20 @@
       "durationMin": 53,
       "startLocal": "13:30",
       "notes": "Untimed motionsklass through the new E4 Förbifart Stockholm tunnel · start/finish trafikplats Akalla · on site by 12:30 · easy ~7:30/km, take the 4 km exit if the left leg grumbles · porridge + banana + honey ~10:00 · compression stockings · replaces the long run · calendar 11:15–15:45: leave Huddinge ~11:15, park at Kistamässan (limited; fallback metro Kista→Akalla, Finlandsgatan exit), event shuttle Kistagången→Sveaborgsgatan; avoid Vandagatan (closed) and Hanstavägen (delays)",
-      "location": "Kistamässan, Arne Beurlings Torg 5, Kista"
+      "location": "Kistamässan, Arne Beurlings Torg 5, Kista",
+      "completed": {
+        "event": "Förbifartspremiären",
+        "garminTitle": "Stockholm Running",
+        "startLocal": "13:30",
+        "route": "Akalla, out and back through the new E4 Förbifart tunnel",
+        "distanceKm": 7.14,
+        "duration": "48:07",
+        "pace": "6:44/km",
+        "avgHr": 154,
+        "kcal": 549,
+        "notes": "Felt strong but chose the 7 km exit rather than the 12 km. Elevation gain was more than expected; average HR 154 bpm was above easy effort.",
+        "source": "Garmin"
+      }
     },
     {
       "date": "2026-10-04",
