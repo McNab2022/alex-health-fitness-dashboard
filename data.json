@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-10-03T15:10+02:00",
+    "updatedAt": "2026-10-04T18:54+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)",
-    "lastUpdated": "2026-10-03"
+    "lastUpdated": "2026-10-04"
   },
   "goals": {
     "fatPercentTarget": {
@@ -233,76 +233,6 @@
   },
   "weekMeals": [
     {
-      "date": "2026-09-26",
-      "dayName": "Saturday",
-      "caloriesTargetApprox": 1800,
-      "proteinFloorG": 130,
-      "meals": {
-        "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Chicken + veg",
-        "snacks": "Greek yogurt or protein shake if needed"
-      },
-      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
-    },
-    {
-      "date": "2026-09-27",
-      "dayName": "Sunday",
-      "caloriesTargetApprox": 1950,
-      "proteinFloorG": 130,
-      "meals": {
-        "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk",
-        "dinner": "Lean fish + veg",
-        "snacks": "Greek yogurt or protein shake if needed"
-      },
-      "notes": "Easy 5 km — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
-    },
-    {
-      "date": "2026-09-28",
-      "dayName": "Monday",
-      "caloriesTargetApprox": 2000,
-      "proteinFloorG": 140,
-      "meals": {
-        "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Lean fish + veg",
-        "snacks": "Greek yogurt or protein shake if needed"
-      },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
-    },
-    {
-      "date": "2026-09-29",
-      "dayName": "Tuesday",
-      "caloriesTargetApprox": 1950,
-      "proteinFloorG": 130,
-      "meals": {
-        "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk",
-        "dinner": "Lean pork + veg",
-        "snacks": "Greek yogurt or protein shake if needed"
-      },
-      "notes": "Easy 5 km — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
-    },
-    {
-      "date": "2026-09-30",
-      "dayName": "Wednesday",
-      "caloriesTargetApprox": 1800,
-      "proteinFloorG": 130,
-      "meals": {
-        "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk",
-        "dinner": "Lean pork + veg",
-        "snacks": "Greek yogurt or protein shake if needed"
-      },
-      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
-    },
-    {
       "date": "2026-10-01",
       "dayName": "Thursday",
       "caloriesTargetApprox": 2000,
@@ -349,126 +279,196 @@
       "dayName": "Sunday",
       "caloriesTargetApprox": 1800,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "Cheerios or muesli + lactose-free milk",
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Rest (long run done Sat at Förbifartspremiären) — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Rest (long run done Sat at Förbifartspremiären) — ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-05",
       "dayName": "Monday",
       "caloriesTargetApprox": 2000,
       "proteinFloorG": 140,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "5-egg omelette + tin of mackerel",
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-06",
       "dayName": "Tuesday",
       "caloriesTargetApprox": 1950,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "Cheerios or muesli + lactose-free milk",
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Easy 5 km — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Easy 5 km — ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-07",
       "dayName": "Wednesday",
       "caloriesTargetApprox": 1800,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "Cheerios or muesli + lactose-free milk",
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-08",
       "dayName": "Thursday",
       "caloriesTargetApprox": 2000,
       "proteinFloorG": 140,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "5-egg omelette + tin of mackerel",
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-09",
       "dayName": "Friday",
       "caloriesTargetApprox": 1850,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "Cheerios or muesli + lactose-free milk",
         "dinner": "Steak + airfry fries (weekly treat)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-10",
       "dayName": "Saturday",
       "caloriesTargetApprox": 1800,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "5-egg omelette + tin of mackerel",
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-11",
       "dayName": "Sunday",
       "caloriesTargetApprox": 2050,
       "proteinFloorG": 130,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "Cheerios or muesli + lactose-free milk",
         "dinner": "Lean pork + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Evening long 7 km (football morning), under 12 km so no porridge; ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Evening long 7 km (football morning), under 12 km so no porridge; ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-12",
       "dayName": "Monday",
       "caloriesTargetApprox": 1900,
       "proteinFloorG": 140,
+      "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
         "lunch": "5-egg omelette + tin of mackerel",
         "dinner": "Lean pork + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength maintenance (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)",
-      "fasting": true
+      "notes": "Strength maintenance (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-10-13",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 1900,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Cheerios or muesli + lactose-free milk",
+        "dinner": "Chicken + veg",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Easy 4 km (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-10-14",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Cheerios or muesli + lactose-free milk",
+        "dinner": "Lean fish + veg",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-10-15",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 1900,
+      "proteinFloorG": 140,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "5-egg omelette + tin of mackerel",
+        "dinner": "Chicken + veg",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Strength maintenance (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-10-16",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 1850,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Cheerios or muesli + lactose-free milk",
+        "dinner": "Steak + airfry fries (weekly treat)",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-10-17",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "5-egg omelette + tin of mackerel",
+        "dinner": "Lean pork + veg",
+        "snacks": "Greek yogurt or protein shake if needed"
+      },
+      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
     }
   ],
   "training": [
@@ -628,8 +628,8 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00",
-      "location": null
+      "location": null,
+      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00"
     },
     {
       "date": "2026-10-06",
@@ -638,8 +638,8 @@
       "distanceKm": 5,
       "durationMin": 40,
       "startLocal": "07:40",
-      "notes": "Easy aerobic · ~7:30/km · calendar 07:40–09:10",
-      "location": null
+      "location": null,
+      "notes": "Easy aerobic · ~7:30/km · calendar 07:40–09:10"
     },
     {
       "date": "2026-10-07",
@@ -653,8 +653,8 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "Full body B — upper/push-pull (30 min) · calendar 07:40–09:00",
-      "location": null
+      "location": null,
+      "notes": "Full body B — upper/push-pull (30 min) · calendar 07:40–09:00"
     },
     {
       "date": "2026-10-09",
@@ -666,7 +666,7 @@
       "date": "2026-10-10",
       "title": "Football",
       "type": "rest",
-      "notes": "Football likely morning — no AM training / ParkRun"
+      "notes": "Football / rest — no AM training (Alex custody week likely)"
     },
     {
       "date": "2026-10-11",
@@ -675,8 +675,8 @@
       "distanceKm": 7,
       "durationMin": 55,
       "startLocal": "17:10",
-      "notes": "Evening long run — morning clash with Ollie football gather · calendar 17:10–19:25",
-      "location": null
+      "location": null,
+      "notes": "Evening long run — morning clash with Ollie football · calendar 17:10–19:25"
     },
     {
       "date": "2026-10-12",
@@ -684,8 +684,60 @@
       "type": "strength",
       "durationMin": 20,
       "startLocal": "07:40",
-      "notes": "Deload maintenance (20 min) · calendar 07:40–08:50",
-      "location": null
+      "location": null,
+      "notes": "Deload maintenance (20 min) · calendar 07:40–08:50"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Easy 4 km",
+      "type": "run",
+      "distanceKm": 4,
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "location": null,
+      "notes": "Easy aerobic deload · ~7:30/km · calendar 07:40–09:00"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "No session on Training calendar"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Strength Maintenance",
+      "type": "strength",
+      "durationMin": 20,
+      "startLocal": "07:40",
+      "location": null,
+      "notes": "Deload maintenance (20 min) · calendar 07:40–08:50"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "No session on Training calendar"
+    },
+    {
+      "date": "2026-10-17",
+      "title": "Football",
+      "type": "rest",
+      "notes": "Football / rest — no ParkRun (next ParkRun 31 Oct)"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "Rest (or light) — no calendar event"
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Strength Full body A",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "location": null,
+      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00"
     },
     {
       "date": "2026-10-31",
