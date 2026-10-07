@@ -110,12 +110,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1157,
-      "burnKcal": 2119,
-      "tdeeKcal": 2119,
-      "deficitKcal": 962,
-      "sampleSize": 5,
-      "note": "Rolling 5-day average from logged days"
+      "intakeKcal": 1181,
+      "burnKcal": 2132,
+      "tdeeKcal": 2132,
+      "deficitKcal": 952,
+      "sampleSize": 6,
+      "note": "Rolling 6-day average from logged days (29 Sep-3 Oct untracked, left blank)"
     },
     "dailyLogs": [
       {
@@ -167,6 +167,16 @@
         "mealsNote": "IF, no breakfast. Lunch: meatballs (~150g) in wholewheat bun (~550). Dinner: salmon fillet (~150g) + ~250g boiled potatoes + asparagus (~550). Protein ~70g (below 130g floor).",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn Garmin 2413 (576 active + 1837 resting). Sleep not recorded (watch likely not worn overnight). Planned strength swapped for Padel 18:06, 1:28:56 elapsed (38:56 moving), 537 kcal, avg HR 115 / max 149 — pick strength up Wed 30 Sep or keep Thu 1 Oct."
+      },
+      {
+        "date": "2026-10-04",
+        "intakeKcal": 1300,
+        "burnKcal": 2198,
+        "deficitKcal": 898,
+        "steps": 4254,
+        "mealsNote": "Tuna mayo bagel, cereal with milk, small portion of ricotta tortellini, chicken breast (~1300). Rest day apart from Ollie's football. Protein ~88g (below 130g floor).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2198 (121 active + 2077 resting). Sleep score 66, 5h42m (22:34 3 Oct to 04:48). No activities."
       }
     ]
   },
