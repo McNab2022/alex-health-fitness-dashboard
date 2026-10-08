@@ -4,7 +4,7 @@
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
-    "phase": "Rebuild (24 Sep – 26 Oct 2026)",
+    "phase": "Rebuild (24 Sep \u2013 26 Oct 2026)",
     "lastUpdated": "2026-10-04"
   },
   "goals": {
@@ -17,10 +17,10 @@
       "max": 75
     },
     "preferredFirstMilestone": {
-      "label": "15–16% fat, preserve lean",
+      "label": "15\u201316% fat, preserve lean",
       "weightKgApprox": 77,
       "fatPercent": 16,
-      "rationale": "Hold lean ~66 kg → ~76–78 kg at 15–16% fat"
+      "rationale": "Hold lean ~66 kg \u2192 ~76\u201378 kg at 15\u201316% fat"
     },
     "assumptions": {
       "dailyDeficitKcal": 500,
@@ -33,7 +33,7 @@
     "scenarios": [
       {
         "id": "lean-preserve",
-        "title": "First milestone — ~16% fat",
+        "title": "First milestone \u2014 ~16% fat",
         "targetWeightKg": 77,
         "targetFatPercent": 16,
         "kgToLoseApprox": 6.5,
@@ -45,7 +45,7 @@
       },
       {
         "id": "seventy-five",
-        "title": "75 kg @ 15–16%",
+        "title": "75 kg @ 15\u201316%",
         "targetWeightKg": 75,
         "targetFatPercent": 15.5,
         "kgToLoseApprox": 10.4,
@@ -66,7 +66,7 @@
         "etaStart": "2027-04-20",
         "etaEnd": "2027-06-15",
         "primary": false,
-        "note": "Defer past marathon-ready check; don’t force during winter build"
+        "note": "Defer past marathon-ready check; don\u2019t force during winter build"
       }
     ],
     "progress": {
@@ -92,7 +92,7 @@
     "waterKg": 44.7,
     "bmrKcal": 1912,
     "metabolicAge": 41,
-    "vascularAgeRange": "40–44",
+    "vascularAgeRange": "40\u201344",
     "nerveHealthScore": 84,
     "awakeHr": 49,
     "asleepHr": 48,
@@ -102,20 +102,20 @@
     "sleepEfficiencyPct": 92,
     "weekdayBedtime": "00:13",
     "weekdayWake": "07:13",
-    "sourceNote": "Withings report 8 Sep–8 Oct 2026 (prev 23 Sep: 85.4 kg, 21.6% fat)",
+    "sourceNote": "Withings report 8 Sep\u20138 Oct 2026 (prev 23 Sep: 85.4 kg, 21.6% fat)",
     "priorJulyWeightKg": 80.1
   },
   "energy": {
-    "method": "End-of-day: Alex describes meals/ingredients; Sarah estimates intake kcal. Garmin total burn from watch. Deficit = burn − estimated intake.",
+    "method": "End-of-day: Alex describes meals/ingredients; Sarah estimates intake kcal. Garmin total burn from watch. Deficit = burn \u2212 estimated intake.",
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1181,
-      "burnKcal": 2132,
-      "tdeeKcal": 2132,
-      "deficitKcal": 952,
-      "sampleSize": 6,
-      "note": "Rolling 6-day average from logged days (29 Sep-3 Oct untracked, left blank)"
+      "intakeKcal": 1210,
+      "burnKcal": 2192,
+      "tdeeKcal": 2192,
+      "deficitKcal": 982,
+      "sampleSize": 7,
+      "note": "Rolling 7-day average from logged days (29 Sep-3 Oct untracked, left blank)"
     },
     "dailyLogs": [
       {
@@ -166,7 +166,7 @@
         "steps": 5225,
         "mealsNote": "IF, no breakfast. Lunch: meatballs (~150g) in wholewheat bun (~550). Dinner: salmon fillet (~150g) + ~250g boiled potatoes + asparagus (~550). Protein ~70g (below 130g floor).",
         "source": "garmin+sarah-estimate",
-        "assumptions": "Burn Garmin 2413 (576 active + 1837 resting). Sleep not recorded (watch likely not worn overnight). Planned strength swapped for Padel 18:06, 1:28:56 elapsed (38:56 moving), 537 kcal, avg HR 115 / max 149 — pick strength up Wed 30 Sep or keep Thu 1 Oct."
+        "assumptions": "Burn Garmin 2413 (576 active + 1837 resting). Sleep not recorded (watch likely not worn overnight). Planned strength swapped for Padel 18:06, 1:28:56 elapsed (38:56 moving), 537 kcal, avg HR 115 / max 149 \u2014 pick strength up Wed 30 Sep or keep Thu 1 Oct."
       },
       {
         "date": "2026-10-04",
@@ -177,11 +177,40 @@
         "mealsNote": "Tuna mayo bagel, cereal with milk, small portion of ricotta tortellini, chicken breast (~1300). Rest day apart from Ollie's football. Protein ~88g (below 130g floor).",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn Garmin 2198 (121 active + 2077 resting). Sleep score 66, 5h42m (22:34 3 Oct to 04:48). No activities."
+      },
+      {
+        "date": "2026-10-05",
+        "intakeKcal": 1020,
+        "burnKcal": 2138,
+        "deficitKcal": 1118,
+        "steps": 2152,
+        "mealsNote": "Bagel with small chicken breast + 25g grated cheddar (~520). Half a tuna mayo toastie (~250). 3 meatballs + slice of cheese (~250). Rest day (planned session missed). Protein ~67g (below 130g floor).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2138, steps 2152. Meal kcal/protein Sarah estimates from Alex's descriptions."
+      },
+      {
+        "date": "2026-10-06",
+        "intakeKcal": 840,
+        "burnKcal": 2279,
+        "deficitKcal": 1439,
+        "steps": 6850,
+        "mealsNote": "Corny Big Protein bar (~190). Ham & cheese sandwich with 1 tsp light mayo (~400). 1 waffle with honey (~250). Rest day (planned session missed). Protein ~38g (below 130g floor).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2279, steps 6850. Meal kcal/protein Sarah estimates from Alex's descriptions."
+      },
+      {
+        "date": "2026-10-07",
+        "intakeKcal": 1650,
+        "burnKcal": 2200,
+        "deficitKcal": 550,
+        "mealsNote": "Tuna mayo sandwich (~450). Large portion toad in the hole (85% beef sausages) with gravy (~950). 1 waffle with honey (~250). Rest day (planned session missed). Protein ~61g (below 130g floor).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn estimated 2200 (no final Garmin end-of-day figure saved from check-in; watch had last synced ~17:00). Steps unavailable. Meal kcal/protein Sarah estimates from Alex's descriptions."
       }
     ]
   },
   "fitness": {
-    "lastActivity": "Förbifartspremiären 3 Oct 2026 · 7.14 km",
+    "lastActivity": "F\u00f6rbifartspremi\u00e4ren 3 Oct 2026 \u00b7 7.14 km",
     "year2026Runs": 50,
     "year2026Km": 333.3,
     "year2026Time": "38h 18m",
@@ -191,8 +220,8 @@
       "10k": "57:33",
       "half": "2:20:42"
     },
-    "currentPaceAssumption": "~7:30 /km easy (rebuild; ~8 km ≈ 60 min)",
-    "shortDistancePace": "5K best 25:48 — current fitness: rebuilding after gap",
+    "currentPaceAssumption": "~7:30 /km easy (rebuild; ~8 km \u2248 60 min)",
+    "shortDistancePace": "5K best 25:48 \u2014 current fitness: rebuilding after gap",
     "longDistancePace": "Half best 2:20:42 as long-distance reference",
     "gapNote": "~8 week gap since last activity",
     "recentRuns": [
@@ -228,7 +257,7 @@
     "proteinHardDayG": 140,
     "bmrKcal": 1909,
     "deficitGoalKcal": 500,
-    "method": "TDEE − 500",
+    "method": "TDEE \u2212 500",
     "intermittentFasting": true,
     "eatingWindow": "skip breakfast; lunch = first meal",
     "style": "intermittent fasting with consistent easy meals",
@@ -253,7 +282,7 @@
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "Strength \u2014 higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
@@ -267,7 +296,7 @@
         "dinner": "Steak + airfry fries (weekly treat)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "Weekly steak treat (Fri) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
@@ -281,7 +310,7 @@
         "dinner": "Chicken + veg (protein dinner)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Förbifartspremiären 13:30 (Akalla) — ~7 km easy (4 km exit option), replaces long run; porridge pre-race by exception; ~500 kcal deficit vs estimated TDEE (not BMR)",
+      "notes": "F\u00f6rbifartspremi\u00e4ren 13:30 (Akalla) \u2014 ~7 km easy (4 km exit option), replaces long run; porridge pre-race by exception; ~500 kcal deficit vs estimated TDEE (not BMR)",
       "fasting": true
     },
     {
@@ -296,7 +325,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Rest (long run done Sat at Förbifartspremiären) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Rest (long run done Sat at F\u00f6rbifartspremi\u00e4ren) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-05",
@@ -310,7 +339,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Strength \u2014 higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-06",
@@ -324,7 +353,7 @@
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Easy 5 km — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Easy 5 km \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-07",
@@ -338,7 +367,7 @@
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Rest \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-08",
@@ -352,7 +381,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength — higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Strength \u2014 higher protein; ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-09",
@@ -366,7 +395,7 @@
         "dinner": "Steak + airfry fries (weekly treat)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Weekly steak treat (Fri) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-10",
@@ -380,7 +409,7 @@
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Football / rest \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-11",
@@ -408,7 +437,7 @@
         "dinner": "Lean pork + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength maintenance (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Strength maintenance (deload) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-13",
@@ -422,7 +451,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Easy 4 km (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Easy 4 km (deload) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-14",
@@ -436,7 +465,7 @@
         "dinner": "Lean fish + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Rest \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-15",
@@ -450,7 +479,7 @@
         "dinner": "Chicken + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Strength maintenance (deload) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Strength maintenance (deload) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-16",
@@ -464,7 +493,7 @@
         "dinner": "Steak + airfry fries (weekly treat)",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Weekly steak treat (Fri) — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Weekly steak treat (Fri) \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     },
     {
       "date": "2026-10-17",
@@ -478,7 +507,7 @@
         "dinner": "Lean pork + veg",
         "snacks": "Greek yogurt or protein shake if needed"
       },
-      "notes": "Football / rest — ~500 kcal deficit vs estimated TDEE (not BMR)"
+      "notes": "Football / rest \u2014 ~500 kcal deficit vs estimated TDEE (not BMR)"
     }
   ],
   "training": [
@@ -494,7 +523,7 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "~25–30 min · calendar ~07:40–08:55 · Missed (slept until 12:30 after late night); no makeup double.",
+      "notes": "~25\u201330 min \u00b7 calendar ~07:40\u201308:55 \u00b7 Missed (slept until 12:30 after late night); no makeup double.",
       "location": null
     },
     {
@@ -510,7 +539,7 @@
       "date": "2026-09-26",
       "title": "Football",
       "type": "rest",
-      "notes": "Football clash morning — no AM training / ParkRun"
+      "notes": "Football clash morning \u2014 no AM training / ParkRun"
     },
     {
       "date": "2026-09-27",
@@ -519,7 +548,7 @@
       "distanceKm": 5,
       "durationMin": 40,
       "startLocal": "07:40",
-      "notes": "Long run · easy rebuild (~40 min) · calendar 07:40–09:10",
+      "notes": "Long run \u00b7 easy rebuild (~40 min) \u00b7 calendar 07:40\u201309:10",
       "location": null,
       "completed": {
         "distanceKm": 4.15,
@@ -534,7 +563,7 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00 · Missed — swapped for Padel (Stockholm Padel, 18:06, 1:28:56). Pick strength up Wed 30 Sep (rest day) or keep Thu 1 Oct Full body B; no duplicate sessions.",
+      "notes": "Full body A \u2014 lower focus (30 min) \u00b7 calendar 07:40\u201309:00 \u00b7 Missed \u2014 swapped for Padel (Stockholm Padel, 18:06, 1:28:56). Pick strength up Wed 30 Sep (rest day) or keep Thu 1 Oct Full body B; no duplicate sessions.",
       "location": null,
       "completed": {
         "activity": "Padel",
@@ -557,7 +586,7 @@
       "distanceKm": 5,
       "durationMin": 40,
       "startLocal": "07:40",
-      "notes": "Easy aerobic · ~7:30/km · calendar 07:40–09:10",
+      "notes": "Easy aerobic \u00b7 ~7:30/km \u00b7 calendar 07:40\u201309:10",
       "location": null
     },
     {
@@ -572,7 +601,7 @@
       "type": "strength",
       "durationMin": 30,
       "startLocal": "07:40",
-      "notes": "Full body B — upper/push-pull (30 min) · calendar 07:40–09:00",
+      "notes": "Full body B \u2014 upper/push-pull (30 min) \u00b7 calendar 07:40\u201309:00",
       "location": null
     },
     {
@@ -583,24 +612,24 @@
     },
     {
       "date": "2026-10-03",
-      "title": "Förbifartspremiären ~7 km easy (4 km exit option)",
+      "title": "F\u00f6rbifartspremi\u00e4ren ~7 km easy (4 km exit option)",
       "type": "run",
       "distanceKm": 7,
       "durationMin": 53,
       "startLocal": "13:30",
-      "notes": "Untimed motionsklass through the new E4 Förbifart Stockholm tunnel · start/finish trafikplats Akalla · on site by 12:30 · easy ~7:30/km, take the 4 km exit if the left leg grumbles · porridge + banana + honey ~10:00 · compression stockings · replaces the long run · calendar 11:15–15:45: leave Huddinge ~11:15, park at Kistamässan (limited; fallback metro Kista→Akalla, Finlandsgatan exit), event shuttle Kistagången→Sveaborgsgatan; avoid Vandagatan (closed) and Hanstavägen (delays)",
-      "location": "Kistamässan, Arne Beurlings Torg 5, Kista",
+      "notes": "Untimed motionsklass through the new E4 F\u00f6rbifart Stockholm tunnel \u00b7 start/finish trafikplats Akalla \u00b7 on site by 12:30 \u00b7 easy ~7:30/km, take the 4 km exit if the left leg grumbles \u00b7 porridge + banana + honey ~10:00 \u00b7 compression stockings \u00b7 replaces the long run \u00b7 calendar 11:15\u201315:45: leave Huddinge ~11:15, park at Kistam\u00e4ssan (limited; fallback metro Kista\u2192Akalla, Finlandsgatan exit), event shuttle Kistag\u00e5ngen\u2192Sveaborgsgatan; avoid Vandagatan (closed) and Hanstav\u00e4gen (delays)",
+      "location": "Kistam\u00e4ssan, Arne Beurlings Torg 5, Kista",
       "completed": {
-        "event": "Förbifartspremiären",
+        "event": "F\u00f6rbifartspremi\u00e4ren",
         "garminTitle": "Stockholm Running",
         "startLocal": "13:30",
-        "route": "Akalla, out and back through the new E4 Förbifart tunnel",
+        "route": "Akalla, out and back through the new E4 F\u00f6rbifart tunnel",
         "distanceKm": 7.14,
         "duration": "48:07",
         "pace": "6:44/km",
         "avgHr": 154,
         "kcal": 549,
-        "notes": "Felt strong but chose the 7 km exit rather than the 12 km. Elevation gain was more than expected; average HR 154 bpm was above easy effort. High HR partly heat (25–30°C tunnel); cadence focus: work up to 165–170 spm gradually.",
+        "notes": "Felt strong but chose the 7 km exit rather than the 12 km. Elevation gain was more than expected; average HR 154 bpm was above easy effort. High HR partly heat (25\u201330\u00b0C tunnel); cadence focus: work up to 165\u2013170 spm gradually.",
         "source": "Garmin",
         "maxHr": 172,
         "gradeAdjustedPace": "6:40/km",
@@ -630,7 +659,7 @@
       "date": "2026-10-04",
       "title": "Rest",
       "type": "rest",
-      "notes": "Rest day (long run done Sat at Förbifartspremiären) · Ollie match 11:00–13:45"
+      "notes": "Rest day (long run done Sat at F\u00f6rbifartspremi\u00e4ren) \u00b7 Ollie match 11:00\u201313:45"
     },
     {
       "date": "2026-10-05",
@@ -639,7 +668,7 @@
       "durationMin": 30,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00"
+      "notes": "Full body A \u2014 lower focus (30 min) \u00b7 calendar 07:40\u201309:00"
     },
     {
       "date": "2026-10-06",
@@ -649,7 +678,7 @@
       "durationMin": 40,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Easy aerobic · ~7:30/km · calendar 07:40–09:10"
+      "notes": "Easy aerobic \u00b7 ~7:30/km \u00b7 calendar 07:40\u201309:10"
     },
     {
       "date": "2026-10-07",
@@ -664,7 +693,7 @@
       "durationMin": 30,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Full body B — upper/push-pull (30 min) · calendar 07:40–09:00"
+      "notes": "Full body B \u2014 upper/push-pull (30 min) \u00b7 calendar 07:40\u201309:00"
     },
     {
       "date": "2026-10-09",
@@ -676,7 +705,7 @@
       "date": "2026-10-10",
       "title": "Football",
       "type": "rest",
-      "notes": "Football / rest — no AM training (Alex custody week likely)"
+      "notes": "Football / rest \u2014 no AM training (Alex custody week likely)"
     },
     {
       "date": "2026-10-11",
@@ -686,7 +715,7 @@
       "durationMin": 55,
       "startLocal": "17:10",
       "location": null,
-      "notes": "Evening long run — morning clash with Ollie football · calendar 17:10–19:25"
+      "notes": "Evening long run \u2014 morning clash with Ollie football \u00b7 calendar 17:10\u201319:25"
     },
     {
       "date": "2026-10-12",
@@ -695,7 +724,7 @@
       "durationMin": 20,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Deload maintenance (20 min) · calendar 07:40–08:50"
+      "notes": "Deload maintenance (20 min) \u00b7 calendar 07:40\u201308:50"
     },
     {
       "date": "2026-10-13",
@@ -705,7 +734,7 @@
       "durationMin": 30,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Easy aerobic deload · ~7:30/km · calendar 07:40–09:00"
+      "notes": "Easy aerobic deload \u00b7 ~7:30/km \u00b7 calendar 07:40\u201309:00"
     },
     {
       "date": "2026-10-14",
@@ -720,7 +749,7 @@
       "durationMin": 20,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Deload maintenance (20 min) · calendar 07:40–08:50"
+      "notes": "Deload maintenance (20 min) \u00b7 calendar 07:40\u201308:50"
     },
     {
       "date": "2026-10-16",
@@ -732,13 +761,13 @@
       "date": "2026-10-17",
       "title": "Football",
       "type": "rest",
-      "notes": "Football / rest — no ParkRun (next ParkRun 31 Oct)"
+      "notes": "Football / rest \u2014 no ParkRun (next ParkRun 31 Oct)"
     },
     {
       "date": "2026-10-18",
       "title": "Rest",
       "type": "rest",
-      "notes": "Rest (or light) — no calendar event"
+      "notes": "Rest (or light) \u2014 no calendar event"
     },
     {
       "date": "2026-10-19",
@@ -747,7 +776,7 @@
       "durationMin": 30,
       "startLocal": "07:40",
       "location": null,
-      "notes": "Full body A — lower focus (30 min) · calendar 07:40–09:00"
+      "notes": "Full body A \u2014 lower focus (30 min) \u00b7 calendar 07:40\u201309:00"
     },
     {
       "date": "2026-10-31",
@@ -778,7 +807,7 @@
     }
   ],
   "dailyGuide": {
-    "nutritionTip": "Intermittent fasting: skip breakfast and make lunch the first meal; use porridge + banana + honey only before a run over 12 km. Target ~500 kcal below estimated TDEE (not BMR): 1800 rest/football, 1900–2000 easy short runs, 2000 strength or longer-run rebuild days; protein 130g most days and 140g on strength days.",
-    "sleepTip": "Weekday bedtime averages ~00:13 — that is the main lever. Aim earlier (target ~23:00) for better rebuild recovery."
+    "nutritionTip": "Intermittent fasting: skip breakfast and make lunch the first meal; use porridge + banana + honey only before a run over 12 km. Target ~500 kcal below estimated TDEE (not BMR): 1800 rest/football, 1900\u20132000 easy short runs, 2000 strength or longer-run rebuild days; protein 130g most days and 140g on strength days.",
+    "sleepTip": "Weekday bedtime averages ~00:13 \u2014 that is the main lever. Aim earlier (target ~23:00) for better rebuild recovery."
   }
 }
