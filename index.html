@@ -839,6 +839,7 @@
               '<div class="card"><div class="stat-label">BMI</div><div class="stat-value">' + esc(fmtNum(body.bmi, 1)) + '</div><div class="stat-sub">' + esc(body.heightCm) + " cm</div></div>" +
               '<div class="card"><div class="stat-label">Body fat</div><div class="stat-value">' + esc(fmtNum(body.fatPercent, 1)) + '%</div><div class="stat-sub">' + esc(fmtNum(body.fatMassKg, 1)) + " kg fat mass</div></div>" +
               '<div class="card"><div class="stat-label">Muscle</div><div class="stat-value">' + esc(fmtNum(body.muscleKg, 1)) + ' kg</div><div class="stat-sub">Lean ' + esc(fmtNum(body.leanKg, 1)) + " kg</div></div>" +
+              renderWaist(body.waistLog || []) +
               '<div class="card"><div class="stat-label">Visceral fat</div><div class="stat-value">' + esc(fmtNum(body.visceralFat, 1)) + '</div></div>' +
               '<div class="card"><div class="stat-label">Water / Bone</div><div class="stat-value sm">' + esc(fmtNum(body.waterKg, 0)) + ' / ' + esc(fmtNum(body.boneKg, 1)) + ' kg</div></div>' +
               '<div class="card"><div class="stat-label">BMR</div><div class="stat-value">' + esc(fmtNum(body.bmrKcal, 0)) + '</div><div class="stat-sub">kcal · met. age ' + esc(body.metabolicAge) + "</div></div>" +
@@ -963,6 +964,17 @@
       var wmOff=0;
       function mountWeekMenu(data,today){var el=document.getElementById("wm-slot");if(!el)return;el.innerHTML=renderWeekMenu(data.weekMeals||[],data.training||[],today,wmOff);
         el.querySelectorAll("button[data-wm]").forEach(function(b){b.onclick=function(){wmOff+=+b.getAttribute("data-wm");mountWeekMenu(data,today);};});}
+      function renderWaist(log){
+        log=log.slice().filter(function(e){return e&&e.waistCm!=null;}).sort(function(a,b){return a.date<b.date?-1:1;});
+        if(!log.length) return '<div class="card"><div class="stat-label">Waist</div><div class="stat-value sm">—</div><div class="stat-sub">First measurement Mon 19 Oct</div></div>';
+        var last=log[log.length-1],ch=last.waistCm-log[0].waistCm;
+        var sub=log.length>1?((ch>0?"+":"")+fmtNum(ch,1)+" cm since "+shortDate(log[0].date)):("Measured "+shortDate(last.date));
+        var svg="";
+        if(log.length>1){var v=log.map(function(e){return e.waistCm;}),mn=Math.min.apply(null,v),mx=Math.max.apply(null,v),r=(mx-mn)||1;
+          var pts=v.map(function(x,i){return (i*100/(v.length-1)).toFixed(1)+","+(28-(x-mn)/r*24).toFixed(1);}).join(" ");
+          svg='<svg viewBox="0 0 100 30" preserveAspectRatio="none" style="width:100%;height:32px;margin-top:.3rem"><polyline fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" points="'+pts+'"/></svg>';}
+        return '<div class="card"><div class="stat-label">Waist</div><div class="stat-value">'+esc(fmtNum(last.waistCm,1))+' cm</div><div class="stat-sub">'+esc(sub)+'</div>'+svg+'</div>';
+      }
       function fail(msg) {
         app.innerHTML = '<div class="error"><strong>Couldn’t load data.</strong><br/>' + esc(msg) + "</div>";
       }

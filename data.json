@@ -103,7 +103,9 @@
     "weekdayBedtime": "00:13",
     "weekdayWake": "07:13",
     "sourceNote": "Withings report 8 Sep–8 Oct 2026 (prev 23 Sep: 85.4 kg, 21.6% fat)",
-    "priorJulyWeightKg": 80.1
+    "priorJulyWeightKg": 80.1,
+    "waistLog": [],
+    "waistNote": "Waist measured at the navel, fasted, Monday mornings ({date, waistCm}). Chest progress is tracked with monthly front + side photos, not circumference."
   },
   "energy": {
     "method": "End-of-day: Alex describes meals/ingredients; Sarah estimates intake kcal. Garmin total burn from watch. Deficit = burn − estimated intake.",
