@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-10-11T18:55+02:00",
+    "updatedAt": "2026-10-14T10:28:46+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
@@ -461,11 +461,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Lean pork + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Rest / football · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-15",
@@ -475,11 +481,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "3–4 egg omelette + cottage cheese",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "White fish (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Strength day · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Maintenance (20 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-16",
@@ -489,11 +501,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Steak + airfry fries (weekly treat)",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "Eating out (London) — choose protein + veg",
+        "dinner": "Eating out — bat mitzvah; choose protein + veg",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "London trip, eat sensibly, protein each meal · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": null,
+      "estProteinG": null,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "London 16–18 Oct (bat mitzvah); Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-17",
@@ -503,11 +521,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "Lean white fish + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "London trip, eat sensibly, protein each meal · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "London trip — use template where possible; eating out: protein + veg; Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-18",
@@ -517,11 +541,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Lean pork + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "London trip, eat sensibly, protein each meal · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "London trip — use template where possible; eating out: protein + veg; Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-19",
@@ -531,25 +561,37 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "3–4 egg omelette + cottage cheese",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "White fish (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Strength day · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body A (lower, 30 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-20",
       "dayName": "Tuesday",
-      "caloriesTargetApprox": 1950,
+      "caloriesTargetApprox": 2000,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Chicken breast + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Run day · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "run",
+        "title": "Easy 5 km"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-21",
@@ -559,11 +601,17 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "Lean white fish + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Rest / football · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-22",
@@ -573,25 +621,37 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Lean pork + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Strength day · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body B (upper, 30 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-23",
       "dayName": "Friday",
-      "caloriesTargetApprox": 1950,
+      "caloriesTargetApprox": 2000,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "Steak + airfry fries (weekly treat)",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Steak + air-fryer fries (weekly treat) + side salad",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Run day · weekly steak treat · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1850,
+      "estProteinG": 135,
+      "training": {
+        "type": "run",
+        "title": "Easy 3 km"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-24",
@@ -601,25 +661,177 @@
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "5-egg omelette + tin of mackerel",
-        "dinner": "Chicken breast + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Rest / football · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-25",
       "dayName": "Sunday",
-      "caloriesTargetApprox": 2050,
+      "caloriesTargetApprox": 2000,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
-        "lunch": "Cheerios or muesli + lactose-free milk + skyr",
-        "dinner": "Lean white fish + veg",
-        "snacks": "Corny Big Protein Bar (up to 2) or skyr"
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
       },
-      "notes": "Run day · ~500 kcal deficit vs estimated TDEE"
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "run",
+        "title": "Long run 8 km"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-26",
+      "dayName": "Monday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-27",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "White fish (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-28",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-29",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-30",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Steak + air-fryer fries (weekly treat) + side salad",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1850,
+      "estProteinG": 135,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-10-31",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "White fish (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "parkrun",
+        "title": "ParkRun"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-01",
+      "dayName": "Sunday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     }
   ],
   "training": [

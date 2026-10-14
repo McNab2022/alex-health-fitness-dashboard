@@ -455,6 +455,15 @@
       position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
       overflow: hidden; clip: rect(0,0,0,0); border: 0;
     }
+    .wm-nav{display:flex;gap:.5rem;align-items:center}
+    .wm-nav button{background:var(--bg-card);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:.35rem .7rem;cursor:pointer;font:inherit}
+    .wm-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:.6rem}
+    .wm-day{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.7rem;font-size:.82rem;display:flex;flex-direction:column;gap:.4rem}
+    .wm-day.today{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+    .wm-day h3{margin:0;font-size:.9rem}
+    .wm-day .lbl{color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.05em}
+    .wm-tgt{color:var(--accent);font-weight:600;font-size:.78rem}
+    @media (max-width:900px){.wm-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -821,6 +830,8 @@
 
           renderEnergy(energy) +
 
+          '<div id="wm-slot"></div>' +
+
           '<section>' +
             '<div class="section-head"><h2>Body composition</h2><span class="hint">Withings</span></div>' +
             '<div class="grid cols-2 cols-4-lg">' +
@@ -934,8 +945,24 @@
           '<footer>' +
             "Maintained by Sarah · Health & Fitness · Not medical advice" +
           "</footer>";
+        mountWeekMenu(data, today);
       }
 
+      function renderWeekMenu(meals, training, today, off){
+        var d0=new Date(today+"T12:00:00");var wd=(d0.getDay()+6)%7;
+        var mon=addDaysISO(today,-wd+7*off);var cells="";
+        for(var i=0;i<7;i++){var d=addDaysISO(mon,i);var m=findByDate(meals,d)||{};var t=findByDate(training,d)||{};var me=m.meals||{};var ty=t.type||"rest";
+          var tg=m.caloriesTargetApprox?("Target ~"+m.caloriesTargetApprox+" kcal · ≥"+m.proteinFloorG+" g P"):"No plan yet";
+          var est=m.estKcal?("Est. ~"+m.estKcal+" kcal · "+m.estProteinG+" g P"):"";
+          cells+='<div class="wm-day'+(d===today?' today':'')+'"><h3>'+esc(shortDate(d))+'</h3><span class="badge '+esc(ty)+'">'+esc(t.title||"Rest")+'</span>'+
+          (me.breakfast&&me.breakfast.indexOf("Skipped")<0?'<div><div class="lbl">Breakfast</div>'+esc(me.breakfast)+'</div>':'')+
+          '<div><div class="lbl">Lunch</div>'+esc(me.lunch||"—")+'</div><div><div class="lbl">Dinner</div>'+esc(me.dinner||"—")+'</div><div><div class="lbl">Snack</div>'+esc(me.snacks||"—")+'</div>'+
+          '<div class="wm-tgt">'+esc(tg)+'</div>'+(est?'<div class="stat-sub">'+esc(est)+'</div>':'')+'</div>';}
+        return '<section id="weekly-menu"><div class="section-head"><h2>Weekly menu</h2><div class="wm-nav"><button data-wm="-1">‹ Prev</button><span class="hint">w/c '+esc(shortDate(mon))+'</span><button data-wm="1">Next ›</button></div></div><div class="wm-grid">'+cells+'</div></section>';
+      }
+      var wmOff=0;
+      function mountWeekMenu(data,today){var el=document.getElementById("wm-slot");if(!el)return;el.innerHTML=renderWeekMenu(data.weekMeals||[],data.training||[],today,wmOff);
+        el.querySelectorAll("button[data-wm]").forEach(function(b){b.onclick=function(){wmOff+=+b.getAttribute("data-wm");mountWeekMenu(data,today);};});}
       function fail(msg) {
         app.innerHTML = '<div class="error"><strong>Couldn’t load data.</strong><br/>' + esc(msg) + "</div>";
       }
