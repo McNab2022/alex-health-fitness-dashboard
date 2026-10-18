@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-10-14T10:28:46+02:00",
+    "updatedAt": "2026-10-18T18:55+02:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Rebuild (24 Sep – 26 Oct 2026)",
-    "lastUpdated": "2026-10-11"
+    "lastUpdated": "2026-10-18"
   },
   "goals": {
     "fatPercentTarget": {
@@ -698,8 +698,8 @@
     {
       "date": "2026-10-26",
       "dayName": "Monday",
-      "caloriesTargetApprox": 1800,
-      "proteinFloorG": 130,
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
@@ -710,15 +710,15 @@
       "estKcal": 1700,
       "estProteinG": 138,
       "training": {
-        "type": "rest",
-        "title": "Rest"
+        "type": "strength",
+        "title": "Strength · Full body A (lower, 30 min)"
       },
       "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-27",
       "dayName": "Tuesday",
-      "caloriesTargetApprox": 1800,
+      "caloriesTargetApprox": 2000,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
@@ -730,8 +730,8 @@
       "estKcal": 1700,
       "estProteinG": 138,
       "training": {
-        "type": "rest",
-        "title": "Rest"
+        "type": "run",
+        "title": "Easy 5 km"
       },
       "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
@@ -758,8 +758,8 @@
     {
       "date": "2026-10-29",
       "dayName": "Thursday",
-      "caloriesTargetApprox": 1800,
-      "proteinFloorG": 130,
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
       "fasting": true,
       "meals": {
         "breakfast": "Skipped (IF)",
@@ -770,15 +770,15 @@
       "estKcal": 1700,
       "estProteinG": 138,
       "training": {
-        "type": "rest",
-        "title": "Rest"
+        "type": "strength",
+        "title": "Strength · Full body B (upper, 30 min)"
       },
       "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-30",
       "dayName": "Friday",
-      "caloriesTargetApprox": 1800,
+      "caloriesTargetApprox": 2000,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
@@ -790,10 +790,10 @@
       "estKcal": 1850,
       "estProteinG": 135,
       "training": {
-        "type": "rest",
-        "title": "Rest"
+        "type": "run",
+        "title": "Easy 4 km"
       },
-      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+      "notes": "Steak night on Friday (ParkRun Saturday). Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-10-31",
@@ -811,14 +811,14 @@
       "estProteinG": 138,
       "training": {
         "type": "parkrun",
-        "title": "ParkRun"
+        "title": "ParkRun · Haga"
       },
       "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     },
     {
       "date": "2026-11-01",
       "dayName": "Sunday",
-      "caloriesTargetApprox": 1800,
+      "caloriesTargetApprox": 2100,
       "proteinFloorG": 130,
       "fasting": true,
       "meals": {
@@ -830,10 +830,10 @@
       "estKcal": 1700,
       "estProteinG": 138,
       "training": {
-        "type": "rest",
-        "title": "Rest"
+        "type": "run",
+        "title": "Long run 10 km"
       },
-      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+      "notes": "10 km long run (under 12 km, so no porridge); take the planned snack after the run. Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     }
   ],
   "training": [
@@ -1156,13 +1156,67 @@
       "distanceKm": 8
     },
     {
+      "date": "2026-10-26",
+      "title": "Strength · Full body A (lower, 30 min)",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar · rebuild W06",
+      "location": null
+    },
+    {
+      "date": "2026-10-27",
+      "title": "Easy 5 km",
+      "type": "run",
+      "durationMin": 40,
+      "startLocal": "07:40",
+      "notes": "From Training calendar · rebuild W06",
+      "location": null,
+      "distanceKm": 5
+    },
+    {
+      "date": "2026-10-28",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "No session booked"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Strength · Full body B (upper, 30 min)",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar · rebuild W06",
+      "location": null
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Easy 4 km",
+      "type": "run",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar · rebuild W06",
+      "location": null,
+      "distanceKm": 4
+    },
+    {
       "date": "2026-10-31",
-      "title": "ParkRun",
+      "title": "ParkRun · Haga",
       "type": "parkrun",
       "distanceKm": 5,
-      "notes": "Booked clear Saturday morning (football free)",
+      "startLocal": "09:30",
+      "notes": "From Training calendar · Hagaparken, Solna; leave Huddinge ~08:30–08:40, bring barcode, easy effort",
+      "location": "Hagaparken, Solna"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Long run 10 km",
+      "type": "run",
+      "durationMin": 75,
+      "startLocal": "07:40",
+      "notes": "From Training calendar · rebuild W06",
       "location": null,
-      "startLocal": "09:30"
+      "distanceKm": 10
     },
     {
       "date": "2026-12-12",
