@@ -631,7 +631,7 @@
       function renderEnergy(energy) {
         const cfg = energy || {};
         const logs = Array.isArray(cfg.dailyLogs)
-          ? cfg.dailyLogs.slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); })
+          ? cfg.dailyLogs.slice().filter(function (log) { return !log.incomplete; }).sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); })
           : [];
         const rollingDays = Number(cfg.rollingDays) > 0 ? Number(cfg.rollingDays) : 7;
         const recent = logs.slice(0, rollingDays);
@@ -656,7 +656,7 @@
         const deficitClass = energyDeficitClass(deficit, goal);
         const metrics = [
           ["Avg intake", intake, "kcal", ""],
-          ["Avg burn", burn, "kcal", "Garmin total"],
+          ["Avg burn", burn, "kcal", "Garmin −10% from 8 Oct"],
           ["TDEE proxy", tdee, "kcal", "avg total burn"],
           ["Avg deficit", deficit, "", "Goal ≥ " + fmtNum(goal, 0) + " kcal"]
         ];

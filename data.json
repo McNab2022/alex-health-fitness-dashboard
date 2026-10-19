@@ -114,16 +114,16 @@
     "waistNote": "Measured at the navel, fasted, Monday mornings."
   },
   "energy": {
-    "method": "End-of-day: Alex describes meals/ingredients; Sarah estimates intake kcal. Garmin total burn from watch. Deficit = burn − estimated intake.",
+    "method": "End-of-day: Alex describes meals/ingredients; Sarah estimates intake kcal. Garmin total burn from watch; from 8 Oct, deficit uses adjusted burn (Garmin −10%). Deficit = adjusted burn − estimated intake.",
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1210,
-      "burnKcal": 2192,
-      "tdeeKcal": 2192,
-      "deficitKcal": 982,
+      "intakeKcal": 1604,
+      "burnKcal": 2132,
+      "tdeeKcal": 2132,
+      "deficitKcal": 528,
       "sampleSize": 7,
-      "note": "Rolling 7-day average from logged days (29 Sep-3 Oct untracked, left blank)"
+      "note": "Rolling 7-day average from last 7 complete logged days (2026-10-05–2026-10-18; 8–13 Oct untracked; 14 Oct incomplete excluded). Burn/deficit use Garmin−10% where available."
     },
     "dailyLogs": [
       {
@@ -214,6 +214,66 @@
         "mealsNote": "Tuna mayo sandwich (~450). Large portion toad in the hole (85% beef sausages) with gravy (~950). 1 waffle with honey (~250). Rest day (planned session missed). Protein ~61g (below 130g floor).",
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn estimated 2200 (no final Garmin end-of-day figure saved from check-in; watch had last synced ~17:00). Steps unavailable. Meal kcal/protein Sarah estimates from Alex's descriptions."
+      },
+      {
+        "date": "2026-10-14",
+        "intakeKcal": 950,
+        "burnKcal": 2019,
+        "deficitKcal": 1069,
+        "steps": 7499,
+        "mealsNote": "Eggs & ham on white roll (~400, ~25g protein). Prawn biryani: ~12 small prawns + Uncle Ben's microwave jasmine rice pouch with tomato puree/garlic/garam masala (~550, ~30g protein). Incomplete day — only lunch+dinner logged. Protein ~55g (below 130g floor). No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2243, adjusted −10% → 2019 (rule from 8 Oct). Steps 7499. Sleep 6h6m. Meal kcal/protein Sarah estimates from Alex's descriptions. Marked incomplete; excluded from rolling averages. 8–13 Oct left blank (untracked).",
+        "garminBurnKcal": 2243,
+        "sleep": "6h6m",
+        "incomplete": true
+      },
+      {
+        "date": "2026-10-15",
+        "intakeKcal": 1670,
+        "burnKcal": 1969,
+        "deficitKcal": 299,
+        "steps": 6485,
+        "mealsNote": "5-egg omelette with small handful light cheese + tin mackerel in tomato sauce. Espresso House cappuccino. 2 chicken breasts with tomato pasta sauce + microwave rice pouch. ProPud chocolate. Protein ~165g. No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2188, adjusted −10% → 1969 (rule from 8 Oct). Steps 6485. Sleep 7h37m. Meal kcal/protein Sarah estimates from Alex's descriptions.",
+        "garminBurnKcal": 2188,
+        "sleep": "7h37m"
+      },
+      {
+        "date": "2026-10-16",
+        "intakeKcal": 1150,
+        "burnKcal": 2296,
+        "deficitKcal": 1146,
+        "steps": 11977,
+        "mealsNote": "5-egg omelette with tin mackerel in tomato + tsp light mayo. Arlanda Gateau ham & cheese baguette. London travel day. Protein ~75g (below 130g floor). No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2551, adjusted −10% → 2296 (rule from 8 Oct). Steps 11977. Sleep 4h37m (short). Meal kcal/protein Sarah estimates from Alex's descriptions.",
+        "garminBurnKcal": 2551,
+        "sleep": "4h37m"
+      },
+      {
+        "date": "2026-10-17",
+        "intakeKcal": 3150,
+        "burnKcal": 1889,
+        "deficitKcal": -1261,
+        "steps": 627,
+        "mealsNote": "Croissant with butter. Kanelbulle. Tallulahs pub lunch: rosemary focaccia, brisket burger with fries, 2 scoops ice cream. 3 lagers. Bat mitzvah weekend. Protein ~60g (below 130g floor). No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2099, adjusted −10% → 1889 (rule from 8 Oct). Steps 627 (watch probably not worn much). Sleep 5h58m. Meal kcal/protein Sarah estimates from Alex's descriptions + Tallulahs menu photo.",
+        "garminBurnKcal": 2099,
+        "sleep": "5h58m"
+      },
+      {
+        "date": "2026-10-18",
+        "intakeKcal": 1750,
+        "burnKcal": 2153,
+        "deficitKcal": 403,
+        "steps": 6616,
+        "mealsNote": "Yoghurt and granola. 2 small slices bread with jam. M&S chicken & bacon sandwich on wholegrain. Coop packet tortellini with spicy sausage and mozzarella. Protein ~80g (below 130g floor). No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2392, adjusted −10% → 2153 (rule from 8 Oct). Steps 6616. Sleep data unavailable. Meal kcal/protein Sarah estimates from Alex's descriptions.",
+        "garminBurnKcal": 2392
       }
     ]
   },
