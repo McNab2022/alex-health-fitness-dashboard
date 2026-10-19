@@ -118,12 +118,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1604,
-      "burnKcal": 2132,
-      "tdeeKcal": 2132,
-      "deficitKcal": 528,
+      "intakeKcal": 1581,
+      "burnKcal": 2048,
+      "tdeeKcal": 2048,
+      "deficitKcal": 467,
       "sampleSize": 7,
-      "note": "Rolling 7-day average from last 7 complete logged days (2026-10-05–2026-10-18; 8–13 Oct untracked; 14 Oct incomplete excluded). Burn/deficit use Garmin−10% where available."
+      "note": "Rolling 7-day average of last 7 complete logged days (6–7 Oct, 15–19 Oct; 8–13 Oct untracked; 14 Oct incomplete excluded). Burn uses Garmin−10% where available; 19 Oct burn partial."
     },
     "dailyLogs": [
       {
@@ -274,6 +274,18 @@
         "source": "garmin+sarah-estimate",
         "assumptions": "Burn Garmin 2392, adjusted −10% → 2153 (rule from 8 Oct). Steps 6616. Sleep data unavailable. Meal kcal/protein Sarah estimates from Alex's descriptions.",
         "garminBurnKcal": 2392
+      },
+      {
+        "date": "2026-10-19",
+        "intakeKcal": 855,
+        "burnKcal": 1548,
+        "deficitKcal": 693,
+        "steps": 3784,
+        "mealsNote": "Knorr tomato & mascarpone soup 570 ml (~314 kcal, 7 g P). 3 Coop frozen bake-off rolls (~180 kcal each, est.). Protein ~28g (well below 140g strength-day floor). Strength: short Full body A done, no watch.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 1720 partial (sync ~19:55), adjusted −10% → 1548. Sleep 7h00 (score 88). Roll weight assumed ~70 g.",
+        "garminBurnKcal": 1720,
+        "training": "strength (short, completed)"
       }
     ]
   },
