@@ -104,7 +104,13 @@
     "weekdayWake": "07:13",
     "sourceNote": "Withings report 8 Sep–8 Oct 2026 (prev 23 Sep: 85.4 kg, 21.6% fat)",
     "priorJulyWeightKg": 80.1,
-    "waistLog": [],
+    "waistLog": [
+      {
+        "date": "2026-10-19",
+        "waistCm": 103.5,
+        "note": "40.5–41 in"
+      }
+    ],
     "waistNote": "Measured at the navel, fasted, Monday mornings."
   },
   "energy": {
