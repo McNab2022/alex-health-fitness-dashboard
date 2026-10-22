@@ -118,12 +118,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1565,
-      "burnKcal": 2048,
-      "tdeeKcal": 2048,
-      "deficitKcal": 483,
+      "intakeKcal": 1350,
+      "burnKcal": 1950,
+      "tdeeKcal": 1950,
+      "deficitKcal": 601,
       "sampleSize": 7,
-      "note": "Rolling 7-day average of last 7 complete logged days (6–7 Oct, 15–19 Oct; 8–13 Oct untracked; 14 Oct incomplete excluded). Burn uses Garmin−10% where available; 19 Oct burn partial."
+      "note": "Rolling 7-day average of last 7 complete logged days (16–22 Oct). Burn uses Garmin−10%; 22 Oct burn partial."
     },
     "dailyLogs": [
       {
@@ -286,6 +286,39 @@
         "assumptions": "Burn Garmin 1720 partial (sync ~19:55), adjusted −10% → 1548. Roll values from pack.",
         "garminBurnKcal": 1720,
         "training": "strength (short, completed)"
+      },
+      {
+        "date": "2026-10-20",
+        "intakeKcal": 830,
+        "burnKcal": 2056,
+        "deficitKcal": 1226,
+        "steps": 6880,
+        "mealsNote": "5-egg omelette (~400 kcal, 32 g P). Greek yoghurt + granola (~430 kcal, 18 g P). Protein ~50g (below 130g floor). No training recorded.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2285, adjusted −10% → 2056. Sleep 8h55 (94). Portions estimated.",
+        "garminBurnKcal": 2285
+      },
+      {
+        "date": "2026-10-21",
+        "intakeKcal": 920,
+        "burnKcal": 1966,
+        "deficitKcal": 1046,
+        "steps": 4739,
+        "mealsNote": "Sweet potato with brie, rocket, feta (~520 kcal, 18 g P). Brie sandwich (~400 kcal, 15 g P). Protein ~33g (below 130g floor). No training recorded.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2185, adjusted −10% → 1966. Sleep 5h44 (69). Portions estimated.",
+        "garminBurnKcal": 2185
+      },
+      {
+        "date": "2026-10-22",
+        "intakeKcal": 905,
+        "burnKcal": 1745,
+        "deficitKcal": 840,
+        "steps": 5784,
+        "mealsNote": "Chicken breast across 2 burger buns with feta (~555 kcal, 53 g P). Granola with lactose-free milk (~350 kcal, 14 g P). Protein ~60g (below 130g floor). No training recorded.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 1939, adjusted −10% → 1745. Sleep 4h41 (62). Burn partial (~20:10 sync). Portions estimated.",
+        "garminBurnKcal": 1939
       }
     ]
   },
