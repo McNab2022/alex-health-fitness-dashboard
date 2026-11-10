@@ -379,14 +379,14 @@
       {
         "date": "2026-11-07",
         "intakeKcal": 1470,
-        "burnKcal": 1947,
-        "deficitKcal": 477,
-        "steps": 9679,
+        "burnKcal": 2151,
+        "deficitKcal": 681,
+        "steps": 10192,
         "mealsNote": "Lunch: tuna mayo sandwich. Dinner: rødvinskorv, sweet potato chips, slice of pumpkin pie with squirty cream. Protein ~54 g (38–73).",
         "source": "garmin+sarah-estimate",
-        "assumptions": "Burn Garmin 2163, adjusted −10% → 1947. Deficit provisional. Reported meals 1,080–2,000 kcal; portions unknown; not confirmed full day. Burn partial (sync 21:37).",
-        "garminBurnKcal": 2163,
-        "incomplete": true
+        "assumptions": "Burn Garmin 2390 final (313 active/2077 resting, read 10 Nov), adjusted −10% → 2151. Reported meals 1,080–2,000 kcal; portions unknown; not confirmed full day.",
+        "garminBurnKcal": 2390,
+        "incomplete": false
       }
     ]
   },
