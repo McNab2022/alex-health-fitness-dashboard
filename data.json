@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-11-08T18:55+01:00",
+    "updatedAt": "2026-11-15T18:58+01:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Aerobic build (27 Oct – 14 Dec 2026)",
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-15"
   },
   "goals": {
     "fatPercentTarget": {
@@ -1433,6 +1433,166 @@
         "title": "Long run 12 km (evening)"
       },
       "notes": "12 km evening long run (not over 12 km, so no porridge); eat lunch as normal and the planned snack ~1h before the 17:10 start. Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-23",
+      "dayName": "Monday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1850,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body A (lower, 30 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-24",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 1950,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1800,
+      "estProteinG": 138,
+      "training": {
+        "type": "run",
+        "title": "Easy 6 km"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-25",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "White fish (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-26",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1850,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body B (upper, 30 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-27",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 1950,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Steak + air-fryer fries (weekly treat) + side salad",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1800,
+      "estProteinG": 138,
+      "training": {
+        "type": "run",
+        "title": "Easy 5 km"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-28",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-11-29",
+      "dayName": "Sunday",
+      "caloriesTargetApprox": 2100,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Porridge + banana + honey (pre-long-run first meal) ; or usual lunch if preferred",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1950,
+      "estProteinG": 138,
+      "training": {
+        "type": "run",
+        "title": "Long run 13 km (evening)"
+      },
+      "notes": "13 km evening long run (over 12 km): porridge + banana + honey as first meal. Planned snack ~1h before 17:10 start."
+    },
+    {
+      "date": "2026-11-30",
+      "dayName": "Monday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1850,
+      "estProteinG": 138,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body A (lower, 35 min)"
+      },
+      "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
     }
   ],
   "training": [
@@ -1991,6 +2151,77 @@
       "startLocal": "17:10",
       "distanceKm": 12,
       "notes": "From Training calendar · aerobic build W09 · moved to evening (Ollie's Glömsta training 08:30)",
+      "location": null
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Strength · Full body A (lower, 30 min)",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Easy 6 km",
+      "type": "run",
+      "distanceKm": 6,
+      "durationMin": 45,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-25",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Strength · Full body B (upper, 30 min)",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Easy 5 km",
+      "type": "run",
+      "distanceKm": 5,
+      "durationMin": 40,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-28",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-11-29",
+      "title": "Long run 13 km (evening)",
+      "type": "run",
+      "distanceKm": 13,
+      "durationMin": 100,
+      "startLocal": "17:10",
+      "notes": "From Training calendar · evening, after 17:30 (Ollie Glömsta gather clash)",
+      "location": null
+    },
+    {
+      "date": "2026-11-30",
+      "title": "Strength · Full body A (lower, 35 min)",
+      "type": "strength",
+      "durationMin": 35,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
       "location": null
     },
     {
