@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-11-15T18:58+01:00",
+    "updatedAt": "2026-11-20T09:53+01:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Aerobic build (27 Oct – 14 Dec 2026)",
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-20"
   },
   "goals": {
     "fatPercentTarget": {
@@ -123,12 +123,12 @@
     "deficitGoalKcal": 500,
     "rollingDays": 7,
     "averages": {
-      "intakeKcal": 1350,
-      "burnKcal": 1950,
-      "tdeeKcal": 1950,
-      "deficitKcal": 601,
+      "intakeKcal": 1002,
+      "burnKcal": 1997,
+      "tdeeKcal": 1997,
+      "deficitKcal": 995,
       "sampleSize": 7,
-      "note": "Rolling 7-day average of last 7 complete logged days (16–22 Oct). Burn uses Garmin−10%; 22 Oct burn partial."
+      "note": "Rolling 7-day average of last 7 complete logged days (19–22 Oct, 7 Nov, 17–18 Nov). Burn uses Garmin−10%; 19 and 22 Oct burn partial."
     },
     "dailyLogs": [
       {
@@ -387,6 +387,152 @@
         "assumptions": "Burn Garmin 2390 final (313 active/2077 resting, read 10 Nov), adjusted −10% → 2151. Reported meals 1,080–2,000 kcal; portions unknown; not confirmed full day.",
         "garminBurnKcal": 2390,
         "incomplete": false
+      },
+      {
+        "date": "2026-11-08",
+        "intakeKcal": null,
+        "burnKcal": 2001,
+        "deficitKcal": null,
+        "steps": 4740,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2223, adjusted −10% → 2001. Steps 4740. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2223,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-09",
+        "intakeKcal": 1500,
+        "burnKcal": 2001,
+        "deficitKcal": 501,
+        "steps": 3870,
+        "mealsNote": "Lunch: egg waffle with roast chicken and a little grated cheese (~400 kcal, 30 g P). Dinner: brisket Reuben-style toastie (~650 kcal, 35 g P). Drinks: 2 pints lager (~450 kcal). Protein ~65g (below 130g floor). Incomplete — rest of day uncertain. Untracked ~2.1 km evening walk home (dress watch, not on Garmin).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2223, adjusted −10% → 2001. Steps 3870 (evening walk ~2.1 km not included). Reported meals ~1,500 kcal, ~65 g protein; portions and rest of day uncertain. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2223,
+        "training": "untracked ~2.1 km evening walk (not on Garmin)",
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-10",
+        "intakeKcal": null,
+        "burnKcal": 1973,
+        "deficitKcal": null,
+        "steps": 3177,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2192, adjusted −10% → 1973. Steps 3177. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2192,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-11",
+        "intakeKcal": null,
+        "burnKcal": null,
+        "deficitKcal": null,
+        "steps": null,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Watch not worn (battery died around 03:00; dress watch Wednesday evening). Garmin steps and burn left blank; do not use the resting-only figure. Sleep was actually about 7.5 hours (woke around 08:00). Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": null,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-12",
+        "intakeKcal": null,
+        "burnKcal": 2045,
+        "deficitKcal": null,
+        "steps": 3675,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2272, adjusted −10% → 2045. Steps 3675. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2272,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-13",
+        "intakeKcal": null,
+        "burnKcal": 2192,
+        "deficitKcal": null,
+        "steps": 9275,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2435, adjusted −10% → 2192. Steps 9275. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2435,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-14",
+        "intakeKcal": null,
+        "burnKcal": 2218,
+        "deficitKcal": null,
+        "steps": 6935,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2464, adjusted −10% → 2218. Steps 6935. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2464,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-15",
+        "intakeKcal": null,
+        "burnKcal": 1983,
+        "deficitKcal": null,
+        "steps": 3226,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2203, adjusted −10% → 1983. Steps 3226. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2203,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-16",
+        "intakeKcal": null,
+        "burnKcal": 2058,
+        "deficitKcal": null,
+        "steps": 6199,
+        "mealsNote": "Meals not recalled",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2287, adjusted −10% → 2058. Steps 6199. Meals not recalled; intake and deficit left blank. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 2287,
+        "incomplete": true
+      },
+      {
+        "date": "2026-11-17",
+        "intakeKcal": 1320,
+        "burnKcal": 2493,
+        "deficitKcal": 1173,
+        "steps": 14461,
+        "mealsNote": "Lunch: cheese sandwich with mayo (~450 kcal, 18 g P). Dinner: 2 cod fillets 220 g, large handful of broccoli, 120 g Coop frozen pommes frites, air-fried (~420 kcal, 45 g P). Evening: tuna mayo sandwich (~450 kcal, 25 g P). Protein ~88g (below 130g floor). Training: Huddinge run 5.46 km in 43:12, 7:55/km, avg HR 140, 431 kcal.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2770, adjusted −10% → 2493. Steps 14461. Meal kcal/protein Sarah estimates from Alex's descriptions. Run 431 kcal already included in the Garmin daily total.",
+        "garminBurnKcal": 2770,
+        "training": "Huddinge run 5.46 km in 43:12, 7:55/km, avg HR 140, 431 kcal",
+        "incomplete": false
+      },
+      {
+        "date": "2026-11-18",
+        "intakeKcal": 825,
+        "burnKcal": 2021,
+        "deficitKcal": 1196,
+        "steps": 4208,
+        "mealsNote": "Lunch: mackerel on 1 slice white toast with 2 poached eggs (~475 kcal, 38 g P). Dinner: about half a normal portion of fresh pasta in creamy tomato sauce, leftovers (~350 kcal, 10 g P). Protein ~48g (below 130g floor). No training.",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 2246, adjusted −10% → 2021. Steps 4208. Dinner was leftover pasta, about half a normal portion. Meal kcal/protein Sarah estimates from Alex's descriptions.",
+        "garminBurnKcal": 2246,
+        "incomplete": false
+      },
+      {
+        "date": "2026-11-19",
+        "intakeKcal": 1150,
+        "burnKcal": 1546,
+        "deficitKcal": 396,
+        "steps": 614,
+        "mealsNote": "Lunch: cheese wrap with 1 tbsp mayo (~450 kcal, 18 g P). Dinner: 2 salmon fillets ~200 g, handful of broccoli, handful of oven fries, air-fried with no fat, plus 1 tbsp mayo or hollandaise (~700 kcal, 45 g P). Protein ~63g (below 130g floor). Evening snack unknown. Burn and steps partial (dress watch from lunchtime).",
+        "source": "garmin+sarah-estimate",
+        "assumptions": "Burn Garmin 1718 partial (dress watch from lunchtime; afternoon steps not tracked), adjusted −10% → 1546. Steps 614 partial. Computed deficit 396 kcal is not a real full-day figure — do not treat it as such. Evening snack unknown. Marked incomplete; excluded from rolling averages.",
+        "garminBurnKcal": 1718,
+        "incomplete": true
       }
     ]
   },
@@ -2110,7 +2256,16 @@
       "startLocal": "07:40",
       "distanceKm": 6,
       "notes": "From Training calendar · aerobic build W09",
-      "location": null
+      "location": null,
+      "completed": {
+        "activity": "Huddinge run",
+        "distanceKm": 5.46,
+        "duration": "43:12",
+        "pace": "7:55/km",
+        "avgHr": 140,
+        "kcal": 431,
+        "source": "Garmin"
+      }
     },
     {
       "date": "2026-11-18",
