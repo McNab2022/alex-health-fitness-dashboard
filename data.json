@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-11-20T09:53+01:00",
+    "updatedAt": "2026-11-22T18:55+01:00",
     "timezone": "Europe/Stockholm",
     "person": "Alex",
     "goal": "Marathon-ready by mid-Jan / early Feb 2027",
     "phase": "Aerobic build (27 Oct – 14 Dec 2026)",
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-22"
   },
   "goals": {
     "fatPercentTarget": {
@@ -1739,6 +1739,126 @@
         "title": "Strength · Full body A (lower, 35 min)"
       },
       "notes": "Fixed July-2025 routine; est. incl. optional snack (~150 kcal/15 g)"
+    },
+    {
+      "date": "2026-12-01",
+      "dayName": "Tuesday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Cereal + lactose-free milk",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1900,
+      "estProteinG": 135,
+      "training": {
+        "type": "run",
+        "title": "Easy 7 km"
+      },
+      "notes": "~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-12-02",
+      "dayName": "Wednesday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Salmon (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-12-03",
+      "dayName": "Thursday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 140,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Pork fillet (~200 g) + plenty of veg + potatoes (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1850,
+      "estProteinG": 140,
+      "training": {
+        "type": "strength",
+        "title": "Strength · Full body B (upper, 30 min)"
+      },
+      "notes": "~500 kcal deficit vs estimated TDEE (not BMR); higher protein"
+    },
+    {
+      "date": "2026-12-04",
+      "dayName": "Friday",
+      "caloriesTargetApprox": 2000,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Cereal + lactose-free milk",
+        "dinner": "Steak + airfry fries (weekly treat)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1950,
+      "estProteinG": 130,
+      "training": {
+        "type": "run",
+        "title": "Easy 8 km + strides"
+      },
+      "notes": "Weekly steak treat; ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-12-05",
+      "dayName": "Saturday",
+      "caloriesTargetApprox": 1800,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "2 poached eggs + tin of mackerel on 2 slices rye (~40 g protein)",
+        "dinner": "Chicken breast (~200 g) + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 1700,
+      "estProteinG": 138,
+      "training": {
+        "type": "rest",
+        "title": "Rest"
+      },
+      "notes": "Check SportAdmin football fixtures before locking the morning; ~500 kcal deficit vs estimated TDEE (not BMR)"
+    },
+    {
+      "date": "2026-12-06",
+      "dayName": "Sunday",
+      "caloriesTargetApprox": 2150,
+      "proteinFloorG": 130,
+      "fasting": true,
+      "meals": {
+        "breakfast": "Skipped (IF)",
+        "lunch": "Porridge + banana + honey (pre-long-run first meal)",
+        "dinner": "Lean fish + plenty of veg + rice (~150 g cooked)",
+        "snacks": "Optional, planned: 1 skyr or 1 Corny Big protein bar"
+      },
+      "estKcal": 2000,
+      "estProteinG": 135,
+      "training": {
+        "type": "run",
+        "title": "Long run 14 km (morning)"
+      },
+      "notes": "14 km long run (over 12 km): porridge + banana + honey as first meal; ~500 kcal deficit vs estimated TDEE (not BMR)"
     }
   ],
   "training": [
@@ -2375,6 +2495,59 @@
       "title": "Strength · Full body A (lower, 35 min)",
       "type": "strength",
       "durationMin": 35,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-01",
+      "title": "Easy 7 km",
+      "type": "run",
+      "distanceKm": 7,
+      "durationMin": 55,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-02",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-03",
+      "title": "Strength · Full body B (upper, 30 min)",
+      "type": "strength",
+      "durationMin": 30,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Easy 8 km + strides",
+      "type": "run",
+      "distanceKm": 8,
+      "durationMin": 60,
+      "startLocal": "07:40",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-05",
+      "title": "Rest",
+      "type": "rest",
+      "notes": "From Training calendar",
+      "location": null
+    },
+    {
+      "date": "2026-12-06",
+      "title": "Long run 14 km",
+      "type": "run",
+      "distanceKm": 14,
+      "durationMin": 105,
       "startLocal": "07:40",
       "notes": "From Training calendar",
       "location": null
